@@ -4,7 +4,7 @@
 A project that combines Knowledge Graphs Representation, Machine Learning and Computer Vision
 into the topic of football.
 
-![main-page](./server/static/images/Screenshot from 2024-03-15 11-56-01.png)
+![main-page](./server/static/images/Screenshot2.png)
 ## Architecture
 
 ![architecture](./server/static/logo/architecture.png)
@@ -27,18 +27,18 @@ into the topic of football.
     
     Make a presentation page with Venues.
     
-![Venues](./server/static/images/Screenshot from 2024-03-15 11-56-06.png)
+![Venues](./server/static/images/Screenshot3.png)
 
     Make presentation pages containing information about National Teams.
 
-![Venues](./server/static/images/Screenshot from 2024-03-15 11-56-16.png)
+![Squads](./server/static/images/Screenshot from 2024-03-15 11-56-16.png)
 
     Develop a feature that takes as input a picture of two players and can predict 
     the team which they are part of.
     
 For the last requirement OpenCV was used to allow the user to manually drag the bounding-boxes.
 
-![test_picture](./server/static/images/Screenshot_from_2024-01-27_13-21-03.png)
+![test_picture](./server/static/images/Screenshot1.png)
 
 ## Execution
 In order to start the program, you need to start [Apache Jena Fuseki Server](./apache-jena-fuseki-4.10.0/fuseki-server).  
