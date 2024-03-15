@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}UEFA EURO 2024 Match Predictor| IAI Hochschule Darmstadt{% endblock %}
+
+{% block content %}
+    <div class="body-wrap-cv">
+        <div class="upload-box-cv">
+            <h1>Image Upload</h1>
+            <form method="POST" action="" enctype="multipart/form-data">
+              <p><input type="file" name="file"></p>
+              <p><input type="submit" value="Submit"></p>
+            </form>
+        </div>
+        <a class="cv-results" href="/countryResults">
+            See results
+        </a>
+    </div>
+
+{% endblock %}

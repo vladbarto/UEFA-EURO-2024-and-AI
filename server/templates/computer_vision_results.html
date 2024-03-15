@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}UEFA EURO 2024 Prediction results | IAI Hochschule Darmstadt{% endblock %}
+
+{% block content %}
+<div class="body-wrap-cv">
+        <div class="img-and-class-wrap">
+            <div class="resulted-image-cv">
+                <img src="./static/classified_images/yoshiA.png" alt="yoshi_A">
+                <div class="cv-predict">
+                    <p>{{ content[0]|safe }}</p>
+                </div>
+            </div>
+
+            <div class="resulted-image-cv">
+                <img src="./static/classified_images/yoshiB.png" alt="yoshi_B">
+                {{ content|safe }}
+                <div class="cv-predict">
+                    <p>{{ content[1]|safe }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

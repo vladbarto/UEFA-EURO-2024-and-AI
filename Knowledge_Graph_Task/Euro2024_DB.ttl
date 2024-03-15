@@ -1,0 +1,4469 @@
+@prefix : <https://www.h-da.de/> . 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+# Venue
+:Venue_1 a :Venue ;
+	:name "Olympiastadion Berlin" ;
+	:ort "Berlin" ;
+	:capacity "71000"^^xsd:integer .
+:Venue_2 a :Venue ;
+	:name "Cologne Stadium" ;
+	:ort "Cologne" ;
+	:capacity "43000"^^xsd:integer .
+:Venue_3 a :Venue ;
+	:name "BVB Stadion Dortmund" ;
+	:ort "Dortmund" ;
+	:capacity "62000"^^xsd:integer .
+:Venue_4 a :Venue ;
+	:name "Düsseldorf Arena" ;
+	:ort "Düsseldorf" ;
+	:capacity "47000"^^xsd:integer .
+:Venue_5 a :Venue ;
+	:name "Frankfurt Arena" ;
+	:ort "Frankfurt" ;
+	:capacity "47000"^^xsd:integer .
+:Venue_6 a :Venue ;
+	:name "Arena AufSchalke" ;
+	:ort "Gelsenkirchen" ;
+	:capacity "50000"^^xsd:integer .
+:Venue_7 a :Venue ;
+	:name "Volksparkstadion Hamburg" ;
+	:ort "Hamburg" ;
+	:capacity "49000"^^xsd:integer .
+:Venue_8 a :Venue ;
+	:name "Leipzig Stadium" ;
+	:ort "Leipzig" ;
+	:capacity "40000"^^xsd:integer .
+:Venue_9 a :Venue ;
+	:name "Munich Football Arena" ;
+	:ort "Munich" ;
+	:capacity "66000"^^xsd:integer .
+:Venue_10 a :Venue ;
+	:name "Stuttgart Arena" ;
+	:ort "Stuttgart" ;
+	:capacity "51000"^^xsd:integer .
+
+# Coach
+:Coach_1 a :Coach ;
+    :name "Julian Nagelsmann" ;
+    :date_of_birth "23.07.1987" ;
+    :nationality "German" .
+:Coach_2 a :Coach ;
+    :name "Steve Clarke" ;
+    :date_of_birth "29.08.1963" ;
+    :nationality "Scottish" .
+:Coach_3 a :Coach ;
+    :name "Marco Rossi" ;
+    :date_of_birth "09.09.1964" ;
+    :nationality "Italian & Hungarian" .
+:Coach_4 a :Coach ;
+    :name "Murat Yakin" ;
+    :date_of_birth "15.09.1974" ;
+    :nationality "Swiss" .
+:Coach_5 a :Coach ;
+    :name "Luis de la Fuente" ;
+    :date_of_birth "21.06.1961" ;
+    :nationality "Spanish" .
+:Coach_6 a :Coach ;
+    :name "Zlatko Dalić" ;
+    :date_of_birth "26.10.1966" ;
+    :nationality "Croatian" .
+:Coach_7 a :Coach ;
+    :name "Luciano Spalletti" ;
+    :date_of_birth "07.03.1959" ;
+    :nationality "Italian" .
+:Coach_8 a :Coach ;
+    :name "Sylvinho" ;
+    :date_of_birth "12.04.1974" ;
+    :nationality "Brazilian" .
+:Coach_9 a :Coach ;
+    :name "Matjaž Kek" ;
+    :date_of_birth "09.09.1961" ;
+    :nationality "Slovenian" .
+:Coach_10 a :Coach ;
+    :name "Kasper Hjulmand" ;
+    :date_of_birth "09.04.1972" ;
+    :nationality "Danish" .
+:Coach_11 a :Coach ;
+    :name "Dragan Stojković" ;
+    :date_of_birth "03.03.1965" ;
+    :nationality "Serbia" .
+:Coach_12 a :Coach ;
+    :name "Gareth Southgate" ;
+    :date_of_birth "03.09.1970" ;
+    :nationality "English" .
+:Coach_13 a :Coach ;
+    :name "Ronald Koeman" ;
+    :date_of_birth "21.03.1963" ;
+    :nationality "Dutch" .
+:Coach_14 a :Coach ;
+    :name "Ralf Rangnick" ;
+    :date_of_birth "29.06.1958" ;
+    :nationality "German" .
+:Coach_15 a :Coach ;
+    :name "Didier Deschamps" ;
+    :date_of_birth "15.10.1968" ;
+    :nationality "French" .
+:Coach_16 a :Coach ;
+    :name "Domenico Tedesco" ;
+    :date_of_birth "12.09.1985" ;
+    :nationality "Italian" .
+:Coach_17 a :Coach ;
+    :name "Francesco Calzona" ;
+    :date_of_birth "05.02.1971" ;
+    :nationality "Italian" .
+:Coach_18 a :Coach ;
+    :name "Edward Iordănescu" ;
+    :date_of_birth "08.06.1978" ;
+    :nationality "Romanian" .
+:Coach_19 a :Coach ;
+    :name "Vincenzo Montella" ;
+    :date_of_birth "18.06.1974" ;
+    :nationality "Italian" .
+:Coach_20 a :Coach ;
+    :name "Roberto Martínez" ;
+    :date_of_birth "13.07.1973" ;
+    :nationality "Spanish" .
+:Coach_21 a :Coach ;
+    :name "Jaroslav Šilhavý" ;
+    :date_of_birth "27.02.1962" ;
+    :nationality "Czech" .
+:Coach_22 a :Coach ;
+    :name "" ;
+    :date_of_birth "" ;
+    :nationality "" .
+:Coach_23 a :Coach ;
+    :name "" ;
+    :date_of_birth "" ;
+    :nationality "" .
+:Coach_24 a :Coach ;
+    :name "" ;
+    :date_of_birth "" ;
+    :nationality "" .
+
+
+#Player
+
+#Scotland
+
+:Player_1 a :Player ;
+    :name "Angus Gunn" ;
+    :date_of_birth "22.01.1996" ;
+    :nationality "Scottish" ;
+    :position "Goalkeeper" .
+:Player_2 a :Player ;
+    :name "Robby McCrorie" ;
+    :date_of_birth "18.03.1998" ;
+    :nationality "Scottish" ;
+    :position "Goalkeeper" .
+:Player_3 a :Player ;
+    :name "Liam Kelly" ;
+    :date_of_birth "23.01.1996" ;
+    :nationality "Scottish" ;
+    :position "Goalkeeper" .
+:Player_4 a :Player ;
+    :name "Zander Clark" ;
+    :date_of_birth "26.06.1992" ;
+    :nationality "Scottish" ;
+    :position "Goalkeeper" .
+:Player_5 a :Player ;
+    :name "Ross McCrorie" ;
+    :date_of_birth "18.03.1998" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_6 a :Player ;
+    :name "Greg Taylor" ;
+    :date_of_birth "05/11/1997" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_7 a :Player ;
+    :name "Anthony Ralston" ;
+    :date_of_birth "16/11/1998" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_8 a :Player ;
+    :name "Andrew Robertso" ;
+    :date_of_birth "11/3/1994" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_9 a :Player ;
+    :name "Dominic Hyam" ;
+    :date_of_birth "20/12/1995" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_10 a :Player ;
+    :name "Josh Doig" ;
+    :date_of_birth "18/5/2002" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_11 a :Player ;
+    :name "John Souttar" ;
+    :date_of_birth "25/9/1996" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_12 a :Player ;
+    :name "Grant Hanley" ;
+    :date_of_birth "20/11/1991" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_13 a :Player ;
+    :name "Liam Cooper" ;
+    :date_of_birth "30/8/1991" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_14 a :Player ;
+    :name "Jack Hendry" ;
+    :date_of_birth "07/5/1995" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_15 a :Player ;
+    :name "Ryan Porteous" ;
+    :date_of_birth "25/3/1999" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_16 a :Player ;
+    :name "Scott McKenna" ;
+    :date_of_birth "12/11/1996" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_17 a :Player ;
+    :name "Nathan Patterson" ;
+    :date_of_birth "16/10/2001" ;
+    :nationality "Scottish" ;
+    :position "Defender" .
+:Player_18 a :Player ;
+    :name "Aaron Hickey" ;
+    :date_of_birth "10/6/2002" ;
+    :nationality "Scottish" ;
+    :position "Midfielder" .
+:Player_19 a :Player ;
+    :name "Scott McTominay" ;
+    :date_of_birth "08/12/1996" ;
+    :nationality "Scottish" ;
+    :position "Midfielder" .
+:Player_20 a :Player ;
+    :name "Kieran Tierney" ;
+    :date_of_birth "05/6/1997" ;
+    :nationality "Scottish" ;
+    :position "Midfielder" .
+:Player_21 a :Player ;
+    :name "John McGinn" ;
+    :date_of_birth "18/10/1994" ;
+    :nationality "Scottish" ;
+    :position "Midfielder" .
+:Player_22 a :Player ;
+    :name "Callum McGregor" ;
+    :date_of_birth "14/6/1993" ;
+    :nationality "Scottish" ;
+    :position "Midfielder" .
+:Player_23 a :Player ;
+    :name "Billy Gilmour" ;
+    :date_of_birth "11/6/2001" ;
+    :nationality "Scottish" ;
+    :position "Midfielder" .
+:Player_24 a :Player ;
+    :name "Stuart Armstrong" ;
+    :date_of_birth "30/3/1992" ;
+    :nationality "Scottish" ;
+    :position "Midfielder" .
+:Player_25 a :Player ;
+    :name "Lewis Ferguson" ;
+    :date_of_birth "24/8/1999" ;
+    :nationality "Scottish" ;
+    :position "Midfielder" .
+:Player_26 a :Player ;
+    :name "Ryan Jack" ;
+    :date_of_birth "27/2/1992" ;
+    :nationality "Scottish" ;
+    :position "Midfielder" .
+:Player_27 a :Player ;
+    :name "Kenny McLean" ;
+    :date_of_birth "08/1/1992" ;
+    :nationality "Scottish" ;
+    :position "Midfielder" .
+:Player_28 a :Player ;
+    :name "Lyndon Dykes" ;
+    :date_of_birth "07/10/1995" ;
+    :nationality "Scottish" ;
+    :position "Forward" .
+:Player_29 a :Player ;
+    :name "Lawrence Shankland" ;
+    :date_of_birth "10/8/1995" ;
+    :nationality "Scottish" ;
+    :position "Forward" .
+:Player_30 a :Player ;
+    :name "Ché Adams" ;
+    :date_of_birth "13/7/1996" ;
+    :nationality "Scottish" ;
+    :position "Forward" .
+:Player_31 a :Player ;
+    :name "Ryan Christie" ;
+    :date_of_birth "22/2/1995" ;
+    :nationality "Scottish" ;
+    :position "Forward" .
+:Player_32 a :Player ;
+    :name "Jacob Brown" ;
+    :date_of_birth "10/4/1998" ;
+    :nationality "Scottish" ;
+    :position "Forward" .
+:Player_33 a :Player ;
+    :name "Kevin Nisbet" ;
+    :date_of_birth "08/3/1997" ;
+    :nationality "Scottish" ;
+    :position "Forward" .
+
+
+#Hungary
+
+:Player_34 a :Player ;
+    :name "Dénes Dibusz" ;
+    :date_of_birth "16/11/1990" ;
+    :nationality "Hungarian" ;
+    :position "Goalkeeper" .
+:Player_35 a :Player ;
+    :name "Péter Gulácsi" ;
+    :date_of_birth "06/5/1990" ;
+    :nationality "Hungarian" ;
+    :position "Goalkeeper" .
+:Player_36 a :Player ;
+    :name "Patrik Demjén" ;
+    :date_of_birth "22/3/1998" ;
+    :nationality "Hungarian" ;
+    :position "Goalkeeper" .
+:Player_37 a :Player ;
+    :name "Krisztián Hegyi" ;
+    :date_of_birth "24/9/2002" ;
+    :nationality "Hungarian" ;
+    :position "Goalkeeper" .
+:Player_38 a :Player ;
+    :name "Péter Szappanos" ;
+    :date_of_birth "14/11/1990" ;
+    :nationality "Hungarian" ;
+    :position "Goalkeeper" .
+:Player_39 a :Player ;
+    :name "Ádám Lang" ;
+    :date_of_birth "17/1/1993" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_40 a :Player ;
+    :name "Attila Mocsi" ;
+    :date_of_birth "29/5/2000" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_41 a :Player ;
+    :name "Attila Szalai" ;
+    :date_of_birth "20/1/1998" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_42 a :Player ;
+    :name "Botond Balogh" ;
+    :date_of_birth "06/6/2002" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_43 a :Player ;
+    :name "Attila Fiola" ;
+    :date_of_birth "17/2/1990" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_44 a :Player ;
+    :name "Gábor Szalai" ;
+    :date_of_birth "09/6/2000" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_45 a :Player ;
+    :name "Willi Orbán" ;
+    :date_of_birth "03/11/1992" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_46 a :Player ;
+    :name "Loïc Négo" ;
+    :date_of_birth "15/1/1991" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_47 a :Player ;
+    :name "Milos Kerkez" ;
+    :date_of_birth "07/11/2003" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_48 a :Player ;
+    :name "Bendegúz Bolla" ;
+    :date_of_birth "22/11/1999" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_49 a :Player ;
+    :name "Zsolt Nagy" ;
+    :date_of_birth "25/5/1993" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_50 a :Player ;
+    :name "Endre Botka" ;
+    :date_of_birth "25/8/1994" ;
+    :nationality "Hungarian" ;
+    :position "Defender" .
+:Player_51 a :Player ;
+    :name "János Ferenczi" ;
+    :date_of_birth "03/4/1991" ;
+    :nationality "Hungarian" ;
+    :position "Midfielder" .
+:Player_52 a :Player ;
+    :name "Ádám Nagy" ;
+    :date_of_birth "17/6/1995" ;
+    :nationality "Hungarian" ;
+    :position "Midfielder" .
+:Player_53 a :Player ;
+    :name "Dominik Szoboszl" ;
+    :date_of_birth "25/10/2000" ;
+    :nationality "Hungarian" ;
+    :position "Midfielder" .
+:Player_54 a :Player ;
+    :name "Zsolt Kalmár" ;
+    :date_of_birth "09/6/1995" ;
+    :nationality "Hungarian" ;
+    :position "Midfielder" .
+:Player_55 a :Player ;
+    :name "Soma Szuhodovszki" ;
+    :date_of_birth "30/12/1999" ;
+    :nationality "Hungarian" ;
+    :position "Midfielder" .
+:Player_56 a :Player ;
+    :name "László Kleinheisle" ;
+    :date_of_birth "08/4/1994" ;
+    :nationality "Hungarian" ;
+    :position "Midfielder" .
+:Player_57 a :Player ;
+    :name "Mihály Kata" ;
+    :date_of_birth "13/4/2002" ;
+    :nationality "Hungarian" ;
+    :position "Midfielder" .
+:Player_58 a :Player ;
+    :name "Dániel Gazdag" ;
+    :date_of_birth "02/3/1996" ;
+    :nationality "Hungarian" ;
+    :position "Midfielder" .
+:Player_59 a :Player ;
+    :name "Callum Styles" ;
+    :date_of_birth "27/3/2000" ;
+    :nationality "Hungarian" ;
+    :position "Midfielder" .
+:Player_60 a :Player ;
+    :name "Péter Baráth" ;
+    :date_of_birth "21/2/2002" ;
+    :nationality "Hungarian" ;
+    :position "Midfielder" .
+:Player_61 a :Player ;
+    :name "Bálint Vécsei" ;
+    :date_of_birth "13/7/1993" ;
+    :nationality "Hungarian" ;
+    :position "Midfielder" .
+:Player_62 a :Player ;
+    :name "Martin Ádám" ;
+    :date_of_birth "06/11/1994" ;
+    :nationality "Hungarian" ;
+    :position "Forward" .
+:Player_63 a :Player ;
+    :name "András Németh" ;
+    :date_of_birth "09/11/2002" ;
+    :nationality "Hungarian" ;
+    :position "Forward" .
+:Player_64 a :Player ;
+    :name "Barnabás Varga" ;
+    :date_of_birth "25/10/1994" ;
+    :nationality "Hungarian" ;
+    :position "Forward" .
+:Player_65 a :Player ;
+    :name "Krisztofer Horvát" ;
+    :date_of_birth "08/1/2002" ;
+    :nationality "Hungarian" ;
+    :position "Forward" .
+:Player_66 a :Player ;
+    :name "Roland Sallai" ;
+    :date_of_birth "22/5/1997" ;
+    :nationality "Hungarian" ;
+    :position "Forward" .
+:Player_67 a :Player ;
+    :name "Kevin Csoboth" ;
+    :date_of_birth "20/6/2000" ;
+    :nationality "Hungarian" ;
+    :position "Forward" .
+
+
+#Switzerland
+
+:Player_68 a :Player ;
+    :name "Yann Sommer" ;
+    :date_of_birth "17/12/1988" ;
+    :nationality "Swiss" ;
+    :position "Goalkeeper" .
+:Player_69 a :Player ;
+    :name "Jonas Omlin" ;
+    :date_of_birth "10/1/1994" ;
+    :nationality "Swiss" ;
+    :position "Goalkeeper" .
+:Player_70 a :Player ;
+    :name "Yvon Mvogo" ;
+    :date_of_birth "06/6/1994" ;
+    :nationality "Swiss" ;
+    :position "Goalkeeper" .
+:Player_71 a :Player ;
+    :name "Gregor Kobel" ;
+    :date_of_birth "06/12/1997" ;
+    :nationality "Swiss" ;
+    :position "Goalkeeper" .
+:Player_72 a :Player ;
+    :name "Anthony Racioppi" ;
+    :date_of_birth "31/12/1998" ;
+    :nationality "Swiss" ;
+    :position "Goalkeeper" .
+:Player_73 a :Player ;
+    :name "Jérémy Frick" ;
+    :date_of_birth "08/3/1993" ;
+    :nationality "Swiss" ;
+    :position "Goalkeeper" .
+:Player_74 a :Player ;
+    :name "Silvan Widmer" ;
+    :date_of_birth "05/3/1993" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_75 a :Player ;
+    :name "Loris Benito" ;
+    :date_of_birth "05/3/1993" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_76 a :Player ;
+    :name "Nico Elvedi" ;
+    :date_of_birth "30/9/1996" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_77 a :Player ;
+    :name "Manuel Akanji" ;
+    :date_of_birth "19/7/1995" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_78 a :Player ;
+    :name "Michael Lang" ;
+    :date_of_birth "08/2/1991" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_79 a :Player ;
+    :name "Ricardo Rodrígue" ;
+    :date_of_birth "25/8/1992" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_80 a :Player ;
+    :name "Jordan Lotomba" ;
+    :date_of_birth "29/9/1998" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_81 a :Player ;
+    :name "Ulisses Garcia" ;
+    :date_of_birth "11/1/1996" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_82 a :Player ;
+    :name "Eray Cömert" ;
+    :date_of_birth "04/2/1998" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_83 a :Player ;
+    :name "Cédric Zesiger" ;
+    :date_of_birth "24/6/1998" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_84 a :Player ;
+    :name "Fabian Schär" ;
+    :date_of_birth "20/12/1991" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_85 a :Player ;
+    :name "Dominik Schmid" ;
+    :date_of_birth "10/3/1998" ;
+    :nationality "Swiss" ;
+    :position "Defender" .
+:Player_86 a :Player ;
+    :name "Filip Ugrinic" ;
+    :date_of_birth "05/1/1999" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_87 a :Player ;
+    :name "Edimilson Fernandes" ;
+    :date_of_birth "15/4/1996" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_88 a :Player ;
+    :name "Denis Zakaria" ;
+    :date_of_birth "20/11/1996" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_89 a :Player ;
+    :name "Remo Freuler" ;
+    :date_of_birth "15/4/1992" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_90 a :Player ;
+    :name "Granit Xhaka" ;
+    :date_of_birth "27/9/1992" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_91 a :Player ;
+    :name "Renato Steffen" ;
+    :date_of_birth "03/11/1991" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_92 a :Player ;
+    :name "Steven Zuber" ;
+    :date_of_birth "17/8/1991" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_93 a :Player ;
+    :name "Ardon Jashari" ;
+    :date_of_birth "30/7/2002" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_94 a :Player ;
+    :name "Djibril Sow" ;
+    :date_of_birth "06/2/1997" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_95 a :Player ;
+    :name "Christian Fassnac" ;
+    :date_of_birth "11/11/1993" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_96 a :Player ;
+    :name "Uran Bislimi" ;
+    :date_of_birth "25/9/1999" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_97 a :Player ;
+    :name "Ruben Vargas" ;
+    :date_of_birth "05/8/1998" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_98 a :Player ;
+    :name "Fabian Rieder" ;
+    :date_of_birth "16/2/2002" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_99 a :Player ;
+    :name "Michel Aebischer" ;
+    :date_of_birth "06/1/1997" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_100 a :Player ;
+    :name "Xherdan Shaqiri" ;
+    :date_of_birth "10/10/1991" ;
+    :nationality "Swiss" ;
+    :position "Midfielder" .
+:Player_101 a :Player ;
+    :name "Zeki Amdouni" ;
+    :date_of_birth "04/12/2000" ;
+    :nationality "Swiss" ;
+    :position "Forward" .
+:Player_102 a :Player ;
+    :name "Breel Embolo" ;
+    :date_of_birth "14/2/1997" ;
+    :nationality "Swiss" ;
+    :position "Forward" .
+:Player_103 a :Player ;
+    :name "Noah Okafor" ;
+    :date_of_birth "24/5/2000" ;
+    :nationality "Swiss" ;
+    :position "Forward" .
+:Player_104 a :Player ;
+    :name "Haris Seferović" ;
+    :date_of_birth "22/2/1992" ;
+    :nationality "Swiss" ;
+    :position "Forward" .
+:Player_105 a :Player ;
+    :name "Andi Zeqiri" ;
+    :date_of_birth "22/6/1999" ;
+    :nationality "Swiss" ;
+    :position "Forward" .
+:Player_106 a :Player ;
+    :name "Cédric Itten" ;
+    :date_of_birth "27/12/1996" ;
+    :nationality "Swiss" ;
+    :position "Forward" .
+:Player_107 a :Player ;
+    :name "Dan Ndoye" ;
+    :date_of_birth "25/10/2000" ;
+    :nationality "Swiss" ;
+    :position "Forward" .
+
+
+# Spain
+
+:Player_108 a :Player ;
+    :name "Kepa Arrizabalaga" ;
+    :date_of_birth "03/10/1994" ;
+    :nationality "Spanish" ;
+    :position "Goalkeeper" .
+:Player_109 a :Player ;
+    :name "David Raya" ;
+    :date_of_birth "15/9/1995" ;
+    :nationality "Spanish" ;
+    :position "Goalkeeper" .
+:Player_110 a :Player ;
+    :name "Alejandro Remiro" ;
+    :date_of_birth "24/3/1995" ;
+    :nationality "Spanish" ;
+    :position "Goalkeeper" .
+:Player_111 a :Player ;
+    :name "Robert Sánchez" ;
+    :date_of_birth "18/11/1997" ;
+    :nationality "Spanish" ;
+    :position "Goalkeeper" .
+:Player_112 a :Player ;
+    :name "Unai Simón" ;
+    :date_of_birth "11/6/1997" ;
+    :nationality "Spanish" ;
+    :position "Goalkeeper" .
+:Player_113 a :Player ;
+    :name "Alejandro Grimaldo" ;
+    :date_of_birth "20/9/1995" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_114 a :Player ;
+    :name "Pedro Porro" ;
+    :date_of_birth "13/9/1999" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_115 a :Player ;
+    :name "César Azpilicueta" ;
+    :date_of_birth "28/8/1989" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_116 a :Player ;
+    :name "Alejandro Balde" ;
+    :date_of_birth "18/10/2003" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_117 a :Player ;
+    :name "Robin Le Normand" ;
+    :date_of_birth "11/11/1996" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_118 a :Player ;
+    :name "Nacho" ;
+    :date_of_birth "18/1/1990" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_119 a :Player ;
+    :name "Pau Torres" ;
+    :date_of_birth "16/1/1997" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_120 a :Player ;
+    :name "Iñigo Martínez" ;
+    :date_of_birth "17/5/1991" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_121 a :Player ;
+    :name "Aymeric Laporte" ;
+    :date_of_birth "27/5/1994" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_122 a :Player ;
+    :name "José Gayà" ;
+    :date_of_birth "27/5/1994" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_123 a :Player ;
+    :name "David García" ;
+    :date_of_birth "14/2/1994" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_124 a :Player ;
+    :name "Fran García" ;
+    :date_of_birth "14/8/1999" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_125 a :Player ;
+    :name "Dani Carvajal" ;
+    :date_of_birth "11/1/1992" ;
+    :nationality "Spanish" ;
+    :position "Defender" .
+:Player_126 a :Player ;
+    :name "Alfonso Pedraza" ;
+    :date_of_birth "09/4/1996" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_127 a :Player ;
+    :name "Rodrigo Riquelme" ;
+    :date_of_birth "02/4/2000" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_128 a :Player ;
+    :name "Mikel Merino" ;
+    :date_of_birth "22/6/1996" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_129 a :Player ;
+    :name "Fabián Ruiz" ;
+    :date_of_birth "03/4/1996" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_130 a :Player ;
+    :name "Gavi" ;
+    :date_of_birth "05/8/2004" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_131 a :Player ;
+    :name "Dani Ceballos" ;
+    :date_of_birth "07/8/1996" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_132 a :Player ;
+    :name "Nico Williams" ;
+    :date_of_birth "12/7/2002" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_133 a :Player ;
+    :name "Rodri" ;
+    :date_of_birth "22/6/1996" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_134 a :Player ;
+    :name "Álex Baena" ;
+    :date_of_birth "20/7/2001" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_135 a :Player ;
+    :name "Martin Zubimendi" ;
+    :date_of_birth "02/2/1999" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_136 a :Player ;
+    :name "Oihan Sancet" ;
+    :date_of_birth "25/4/2000" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_137 a :Player ;
+    :name "Mikel Oyarzabal" ;
+    :date_of_birth "21/4/1997" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_138 a :Player ;
+    :name "Aleix García" ;
+    :date_of_birth "28/6/1997" ;
+    :nationality "Spanish" ;
+    :position "Midfielder" .
+:Player_139 a :Player ;
+    :name "Álvaro Morata" ;
+    :date_of_birth "23/10/1992" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_140 a :Player ;
+    :name "Bryan Zaragoza" ;
+    :date_of_birth "09/9/2001" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_141 a :Player ;
+    :name "Marco Asensio" ;
+    :date_of_birth "21/1/1996" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_142 a :Player ;
+    :name "Yeremy Pino" ;
+    :date_of_birth "20/10/2002" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_143 a :Player ;
+    :name "Ferran Torres" ;
+    :date_of_birth "29/2/2000" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_144 a :Player ;
+    :name "Borja Iglesias" ;
+    :date_of_birth "17/1/1993" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_145 a :Player ;
+    :name "Joselu" ;
+    :date_of_birth "27/3/1990" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_146 a :Player ;
+    :name "Iago Aspas" ;
+    :date_of_birth "01/8/1987" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_147 a :Player ;
+    :name "Ansu Fati" ;
+    :date_of_birth "31/10/2002" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_148 a :Player ;
+    :name "Lamine Yamal" ;
+    :date_of_birth "13/7/2007" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_149 a :Player ;
+    :name "Abel Ruiz" ;
+    :date_of_birth "28/1/2000" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_150 a :Player ;
+    :name "Dani Olmo" ;
+    :date_of_birth "07/5/1998" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+:Player_151 a :Player ;
+    :name "Jesús Navas" ;
+    :date_of_birth "21/11/1985" ;
+    :nationality "Spanish" ;
+    :position "Forward" .
+
+
+#Croatia
+:Player_152 a :Player ;
+	:name "Dominik Livaković" ;
+	:date_of_birth "09/1/1995" ;
+	:nationality "Croatian" ;
+	:position "Goalkeeper" .
+:Player_153 a :Player ;
+	:name "Ivo Grbić" ;
+	:date_of_birth "18/1/1996" ;
+	:nationality "Croatian" ;
+	:position "Goalkeeper" .
+:Player_154 a :Player ;
+	:name "Nediljko Labrović" ;
+	:date_of_birth "10/10/1999" ;
+	:nationality "Croatian" ;
+	:position "Goalkeeper" .
+:Player_155 a :Player ;
+	:name "Ivica Ivušić" ;
+	:date_of_birth "01/2/1995" ;
+	:nationality "Croatian" ;
+	:position "Goalkeeper" .
+:Player_156 a :Player ;
+	:name "Josip Stanišić" ;
+	:date_of_birth "02/4/2000" ;
+	:nationality "Croatian" ;
+	:position "Defender" .
+:Player_157 a :Player ;
+	:name "Borna Barišić" ;
+	:date_of_birth "10/11/1992" ;
+	:nationality "Croatian" ;
+	:position "Defender" .
+:Player_158 a :Player ;
+	:name "Marin Pongračić" ;
+	:date_of_birth "11/9/1997" ;
+	:nationality "Croatian" ;
+	:position "Defender" .
+:Player_159 a :Player ;
+	:name "Joško Gvardiol" ;
+	:date_of_birth "23/1/2002" ;
+	:nationality "Croatian" ;
+	:position "Defender" .
+:Player_160 a :Player ;
+	:name "Martin Erlić" ;
+	:date_of_birth "24/1/1998" ;
+	:nationality "Croatian" ;
+	:position "Defender" .
+:Player_161 a :Player ;
+	:name "Josip Šutalo" ;
+	:date_of_birth "28/2/2000" ;
+	:nationality "Croatian" ;
+	:position "Defender" .
+:Player_162 a :Player ;
+	:name "Borna Sosa" ;
+	:date_of_birth "21/1/1998" ;
+	:nationality "Croatian" ;
+	:position "Defender" .
+:Player_163 a :Player ;
+	:name "Domagoj Vida" ;
+	:date_of_birth "29/4/1989" ;
+	:nationality "Croatian" ;
+	:position "Defender" .
+:Player_164 a :Player ;
+	:name "Josip Juranović" ;
+	:date_of_birth "16/8/1995" ;
+	:nationality "Croatian" ;
+	:position "Defender" .
+:Player_165 a :Player ;
+	:name "Lovro Majer" ;
+	:date_of_birth "17/1/1998" ;
+	:nationality "Croatian" ;
+	:position "Midfielder" .
+:Player_166 a :Player ;
+	:name "Martin Baturina" ;
+	:date_of_birth "16/2/2003" ;
+	:nationality "Croatian" ;
+	:position "Midfielder" .
+:Player_167 a :Player ;
+	:name "Mateo Kovačić" ;
+	:date_of_birth "06/5/1994" ;
+	:nationality "Croatian" ;
+	:position "Midfielder" .
+:Player_168 a :Player ;
+	:name "Luka Modrić" ;
+	:date_of_birth "09/9/1985" ;
+	:nationality "Croatian" ;
+	:position "Midfielder" .
+:Player_169 a :Player ;
+	:name "Marcelo Brozović" ;
+	:date_of_birth "16/11/1992" ;
+	:nationality "Croatian" ;
+	:position "Midfielder" .
+:Player_170 a :Player ;
+	:name "Nikola Vlašić" ;
+	:date_of_birth "04/10/1997" ;
+	:nationality "Croatian" ;
+	:position "Midfielder" .
+:Player_171 a :Player ;
+	:name "Ivan Perišić" ;
+	:date_of_birth "02/2/1989" ;
+	:nationality "Croatian" ;
+	:position "Midfielder" .
+:Player_172 a :Player ;
+	:name "Luka Sučić" ;
+	:date_of_birth "08/9/2002" ;
+	:nationality "Croatian" ;
+	:position "Midfielder" .
+:Player_173 a :Player ;
+	:name "Mario Pašalić" ;
+	:date_of_birth "09/2/1995" ;
+	:nationality "Croatian" ;
+	:position "Midfielder" .
+:Player_174 a :Player ;
+	:name "Nikola Moro" ;
+	:date_of_birth "12/3/1998" ;
+	:nationality "Croatian" ;
+	:position "Midfielder" .
+:Player_175 a :Player ;
+	:name "Ante Budimir" ;
+	:date_of_birth "22/7/1991" ;
+	:nationality "Croatian" ;
+	:position "Midfielder" .
+:Player_176 a :Player ;
+	:name "Andrej Kramarić" ;
+	:date_of_birth "19/6/1991" ;
+	:nationality "Croatian" ;
+	:position "Forward" .
+:Player_177 a :Player ;
+	:name "Marco Pašalić" ;
+	:date_of_birth "14/9/2000" ;
+	:nationality "Croatian" ;
+	:position "Forward" .
+:Player_178 a :Player ;
+	:name "Josip Brekalo" ;
+	:date_of_birth "23/6/1998" ;
+	:nationality "Croatian" ;
+	:position "Forward" .
+:Player_179 a :Player ;
+	:name "Bruno Petković" ;
+	:date_of_birth "16/9/1994" ;
+	:nationality "Croatian" ;
+	:position "Forward" .
+:Player_180 a :Player ;
+	:name "Luka Ivanušec" ;
+	:date_of_birth "26/11/1998" ;
+	:nationality "Croatian" ;
+	:position "Forward" .
+:Player_181 a :Player ;
+	:name "Mislav Oršić" ;
+	:date_of_birth "29/12/1992" ;
+	:nationality "Croatian" ;
+	:position "Forward" .
+:Player_182 a :Player ;
+	:name "Petar Musa" ;
+	:date_of_birth "04/3/1998" ;
+	:nationality "Croatian" ;
+	:position "Forward" .
+:Player_183 a :Player ;
+	:name "Marko Livaja" ;
+	:date_of_birth "26/8/1993" ;
+	:nationality "Croatian" ;
+	:position "Forward" .
+:Player_184 a :Player ;
+	:name "Marko Pjaca" ;
+	:date_of_birth "06/5/1995" ;
+	:nationality "Croatian" ;
+	:position "Forward" .
+:Player_185 a :Player ;
+	:name "Matija Frigan" ;
+	:date_of_birth "11/2/2003" ;
+	:nationality "Croatian" ;
+	:position "Forward" .
+:Player_186 a :Player ;
+	:name "Dion Drena Beljo" ;
+	:date_of_birth "01/3/2002" ;
+	:nationality "Croatian" ;
+	:position "Forward" .
+
+#Italia
+:Player_187 a :Player ;
+	:name "Gianluigi Donnarumma" ;
+	:date_of_birth "25/2/1999" ;
+	:nationality "Italian" ;
+	:position "Goalkeeper" .
+:Player_188 a :Player ;
+	:name "Ivan Provedel" ;
+	:date_of_birth "17/3/1994" ;
+	:nationality "Italian" ;
+	:position "Goalkeeper" .
+:Player_189 a :Player ;
+	:name "Guglielmo Vicario" ;
+	:date_of_birth "07/10/1996" ;
+	:nationality "Italian" ;
+	:position "Goalkeeper" .
+:Player_190 a :Player ;
+	:name "Wladimiro Falcone" ;
+	:date_of_birth "12/4/1995" ;
+	:nationality "Italian" ;
+	:position "Goalkeeper" .
+:Player_191 a :Player ;
+	:name "Alex Meret" ;
+	:date_of_birth "22/3/1997" ;
+	:nationality "Italian" ;
+	:position "Goalkeeper" .
+:Player_192 a :Player ;
+	:name "Marco Carnesecchi" ;
+	:date_of_birth "01/7/2000" ;
+	:nationality "Italian" ;
+	:position "Goalkeeper" .
+:Player_193 a :Player ;
+	:name "Manuel Lazzari" ;
+	:date_of_birth "29/11/1993" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_194 a :Player ;
+	:name "Giovanni Di Lorenzo" ;
+	:date_of_birth "04/8/1993" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_195 a :Player ;
+	:name "Federico Dimarco" ;
+	:date_of_birth "10/11/1997" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_196 a :Player ;
+	:name "Rafael Tolói" ;
+	:date_of_birth "10/10/1990" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_197 a :Player ;
+	:name "Leonardo Spinazzola" ;
+	:date_of_birth "25/3/1993" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_198 a :Player ;
+	:name "Federico Gatti" ;
+	:date_of_birth "24/6/1998" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_199 a :Player ;
+	:name "Cristiano Biraghi" ;
+	:date_of_birth "01/9/1992" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_200 a :Player ;
+	:name "Alessandro Buongiorno" ;
+	:date_of_birth "06/6/1999" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_201 a :Player ;
+	:name "Alessio Romagnoli" ;
+	:date_of_birth "12/1/1995" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_202 a :Player ;
+	:name "Destiny Udogie" ;
+	:date_of_birth "28/11/2002" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_203 a :Player ;
+	:name "Matteo Darmian" ;
+	:date_of_birth "02/12/1989" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_204 a :Player ;
+	:name "Emerson" ;
+	:date_of_birth "03/8/1994" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_205 a :Player ;
+	:name "Francesco Acerbi" ;
+	:date_of_birth "10/2/1988" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_206 a :Player ;
+	:name "Giorgio Scalvini" ;
+	:date_of_birth "11/12/2003" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_207 a :Player ;
+	:name "Nicolò Casale" ;
+	:date_of_birth "14/2/1998" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_208 a :Player ;
+	:name "Gianluca Mancini" ;
+	:date_of_birth "17/4/1996" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_209 a :Player ;
+	:name "Andrea Cambiaso" ;
+	:date_of_birth "20/2/2000" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_210 a :Player ;
+	:name "Alessandro Bastoni" ;
+	:date_of_birth "13/4/1999" ;
+	:nationality "Italian" ;
+	:position "Defender" .
+:Player_211 a :Player ;
+	:name "Manuel Locatelli" ;
+	:date_of_birth "08/1/1998" ;
+	:nationality "Italian" ;
+	:position "Midfielder" .
+:Player_212 a :Player ;
+	:name "Marco Verratti" ;
+	:date_of_birth "05/11/1992" ;
+	:nationality "Italian" ;
+	:position "Midfielder" .
+:Player_213 a :Player ;
+	:name "Giacomo Bonaventura" ;
+	:date_of_birth "22/8/1989" ;
+	:nationality "Italian" ;
+	:position "Midfielder" .
+:Player_214 a :Player ;
+	:name "Jorginho" ;
+	:date_of_birth "20/12/1991" ;
+	:nationality "Italian" ;
+	:position "Midfielder" .
+:Player_215 a :Player ;
+	:name "Sandro Tonali" ;
+	:date_of_birth "08/5/2000" ;
+	:nationality "Italian" ;
+	:position "Midfielder" .
+:Player_216 a :Player ;
+	:name "Lorenzo Pellegrini" ;
+	:date_of_birth "19/6/1996" ;
+	:nationality "Italian" ;
+	:position "Midfielder" .
+:Player_217 a :Player ;
+	:name "Matteo Pessina" ;
+	:date_of_birth "21/4/1997" ;
+	:nationality "Italian" ;
+	:position "Midfielder" .
+:Player_218 a :Player ;
+	:name "Bryan Cristante" ;
+	:date_of_birth "03/3/1995" ;
+	:nationality "Italian" ;
+	:position "Midfielder" .
+:Player_219 a :Player ;
+	:name "Davide Frattesi" ;
+	:date_of_birth "22/9/1999" ;
+	:nationality "Italian" ;
+	:position "Midfielder" .
+:Player_220 a :Player ;
+	:name "Nicolò Barella" ;
+	:date_of_birth "07/2/1997" ;
+	:nationality "Italian" ;
+	:position "Midfielder" .
+:Player_221 a :Player ;
+	:name "Riccardo Orsolini" ;
+	:date_of_birth "24/1/1997" ;
+	:nationality "Italian" ;
+	:position "Midfielder" .
+:Player_222 a :Player ;
+	:name "Vincenzo Grifo" ;
+	:date_of_birth "07/4/1993" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_223 a :Player ;
+	:name "Gianluca Scamacca" ;
+	:date_of_birth "01/1/1999" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_224 a :Player ;
+	:name "Mateo Retegui" ;
+	:date_of_birth "29/4/1999" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_225 a :Player ;
+	:name "Giacomo Raspadori" ;
+	:date_of_birth "18/2/2000" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_226 a :Player ;
+	:name "Wilfried Gnonto" ;
+	:date_of_birth "05/11/2003" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_227 a :Player ;
+	:name "Moise Kean" ;
+	:date_of_birth "28/2/2000" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_228 a :Player ;
+	:name "Domenico Berardi" ;
+	:date_of_birth "01/8/1994" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_229 a :Player ;
+	:name "Federico Chiesa" ;
+	:date_of_birth "25/10/1997" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_230 a :Player ;
+	:name "Ciro Immobile" ;
+	:date_of_birth "20/2/1990" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_231 a :Player ;
+	:name "Matteo Politano" ;
+	:date_of_birth "03/8/1993" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_232 a :Player ;
+	:name "Mattia Zaccagni" ;
+	:date_of_birth "16/6/1995" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_233 a :Player ;
+	:name "Nicolò Zaniolo" ;
+	:date_of_birth "02/7/1999" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+:Player_234 a :Player ;
+	:name "Stephan El Shaarawy" ;
+	:date_of_birth "27/10/1992" ;
+	:nationality "Italian" ;
+	:position "Forward" .
+
+
+#Albania
+
+:Player_235 a :Player ;
+	:name "Etrit Berisha" ;
+	:date_of_birth "10/3/1989" ;
+	:nationality "Albanian" ;
+	:position "Goalkeeper" .
+:Player_236 a :Player ;
+	:name "Elhan Kastrati" ;
+	:date_of_birth "02/2/1997" ;
+	:nationality "Albanian" ;
+	:position "Goalkeeper" .
+:Player_237 a :Player ;
+	:name "Thomas Strakosha" ;
+	:date_of_birth "19/3/1995" ;
+	:nationality "Albanian" ;
+	:position "Goalkeeper" .
+:Player_238 a :Player ;
+	:name "Iván Balliu" ;
+	:date_of_birth "01/1/1992" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_239 a :Player ;
+	:name "Mario Mitaj" ;
+	:date_of_birth "06/8/2003" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_240 a :Player ;
+	:name "Naser Aliji" ;
+	:date_of_birth "27/12/1993" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_241 a :Player ;
+	:name "Elseid Hysaj" ;
+	:date_of_birth "02/2/1994" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_242 a :Player ;
+	:name "Frédéric Veseli" ;
+	:date_of_birth "20/11/1992" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_243 a :Player ;
+	:name "Berat Djimsiti" ;
+	:date_of_birth "19/2/1993" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_244 a :Player ;
+	:name "Jon Mersinaj" ;
+	:date_of_birth "08/2/1999" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_245 a :Player ;
+	:name "Enea Mihaj" ;
+	:date_of_birth "08/2/1999" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_246 a :Player ;
+	:name "Marash Kumbulla" ;
+	:date_of_birth "08/2/2000" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_247 a :Player ;
+	:name "Andi Hadroj" ;
+	:date_of_birth "22/2/1999" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_248 a :Player ;
+	:name "Arlind Ajeti" ;
+	:date_of_birth "25/9/1993" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_249 a :Player ;
+	:name "Ardian Ismajli" ;
+	:date_of_birth "30/9/1996" ;
+	:nationality "Albanian" ;
+	:position "Defender" .
+:Player_250 a :Player ;
+	:name "Ermir Lenjani" ;
+	:date_of_birth "05/8/1989" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_251 a :Player ;
+	:name "Keidi Bare" ;
+	:date_of_birth "28/8/1997" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_252 a :Player ;
+	:name "Klaus Gjasula" ;
+	:date_of_birth "14/12/1989" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_253 a :Player ;
+	:name "Jasir Asani" ;
+	:date_of_birth "19/5/1995" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_254 a :Player ;
+	:name "Nedim Bajrami" ;
+	:date_of_birth "28/2/1999" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_255 a :Player ;
+	:name "Arbnor Mucolli" ;
+	:date_of_birth "15/9/1999" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_256 a :Player ;
+	:name "Qazim Laçi" ;
+	:date_of_birth "19/1/1996" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_257 a :Player ;
+	:name "Taulant Seferi" ;
+	:date_of_birth "15/11/1996" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_258 a :Player ;
+	:name "Lindon Selahi" ;
+	:date_of_birth "26/2/1999" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_259 a :Player ;
+	:name "Anis Mehmeti" ;
+	:date_of_birth "09/1/2001" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_260 a :Player ;
+	:name "Ylber Ramadani" ;
+	:date_of_birth "12/4/1996" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_261 a :Player ;
+	:name "Kristjan Asllani" ;
+	:date_of_birth "09/3/2002" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_262 a :Player ;
+	:name "Odise Roshi" ;
+	:date_of_birth "22/5/1991" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_263 a :Player ;
+	:name "Amir Abrashi" ;
+	:date_of_birth "27/3/1990" ;
+	:nationality "Albanian" ;
+	:position "Midfielder" .
+:Player_264 a :Player ;
+	:name "Armando Sadiku" ;
+	:date_of_birth "27/5/1991" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_265 a :Player ;
+	:name "Myrto Uzuni" ;
+	:date_of_birth "31/5/1995" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_266 a :Player ;
+	:name "Sokol Çikalleshi" ;
+	:date_of_birth "27/7/1990" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_267 a :Player ;
+	:name "Ernest Muçi" ;
+	:date_of_birth "19/3/2001" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_268 a :Player ;
+	:name "Mirlind Daku" ;
+	:date_of_birth "01/1/1998" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_269 a :Player ;
+	:name "Arbnor Muja" ;
+	:date_of_birth "29/11/1998" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+
+
+#Slovenia
+
+:Player_270 a :Player ;
+	:name "Rey Manaj" ;
+	:date_of_birth "24/2/1997" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_271 a :Player ;
+	:name "Hekuran Kryeziu" ;
+	:date_of_birth "22/6/1995" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_272 a :Player ;
+	:name "Rregjion Mustafaraj" ;
+	:date_of_birth "23/5/1999" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_273 a :Player ;
+	:name "Florent Muslija" ;
+	:date_of_birth "10/5/1998" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_274 a :Player ;
+	:name "Milot Rashica" ;
+	:date_of_birth "28/6/1996" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_275 a :Player ;
+	:name "Edon Zhegrova" ;
+	:date_of_birth "12/11/1998" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_276 a :Player ;
+	:name "Elvis Rexhbeçaj" ;
+	:date_of_birth "05/2/1998" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_277 a :Player ;
+	:name "Ergys Kaçe" ;
+	:date_of_birth "08/7/1993" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_278 a :Player ;
+	:name "Gjelbrim Taipi" ;
+	:date_of_birth "07/1/2002" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_279 a :Player ;
+	:name "Alban Pnishi" ;
+	:date_of_birth "08/1/2003" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_280 a :Player ;
+	:name "Andi Ribaj" ;
+	:date_of_birth "26/2/1998" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_281 a :Player ;
+	:name "Kristi Qose" ;
+	:date_of_birth "20/4/2001" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_282 a :Player ;
+	:name "Anis Mehmeti" ;
+	:date_of_birth "06/5/2003" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_283 a :Player ;
+	:name "Dorian Kërciku" ;
+	:date_of_birth "15/8/2000" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_284 a :Player ;
+	:name "Luca Vido" ;
+	:date_of_birth "25/6/1997" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_285 a :Player ;
+	:name "Shpëtim Hasani" ;
+	:date_of_birth "22/6/2000" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_286 a :Player ;
+	:name "David Byçi" ;
+	:date_of_birth "09/7/2002" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_287 a :Player ;
+	:name "Elton Baftijari" ;
+	:date_of_birth "28/1/2003" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_288 a :Player ;
+	:name "Milot Gashi" ;
+	:date_of_birth "22/1/2002" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_289 a :Player ;
+	:name "Dritan Smakaj" ;
+	:date_of_birth "27/12/2000" ;
+	:nationality "Albanian" ;
+	:position "Forward" .
+:Player_290 a :Player ;
+	:name "Jasmin Kurtić" ;
+	:date_of_birth "10/1/1989" ;
+	:nationality "Slovenian" ;
+	:position "Midfielder" .
+:Player_291 a :Player ;
+	:name "Tomi Horvat" ;
+	:date_of_birth "24/3/1999" ;
+	:nationality "Slovenian" ;
+	:position "Midfielder" .
+:Player_292 a :Player ;
+	:name "Adam Čerin" ;
+	:date_of_birth "16/7/1999" ;
+	:nationality "Slovenian" ;
+	:position "Midfielder" .
+:Player_293 a :Player ;
+	:name "Andraž Šporar" ;
+	:date_of_birth "27/2/1994" ;
+	:nationality "Slovenian" ;
+	:position "Forward" .
+:Player_294 a :Player ;
+	:name "Benjamin Šeško" ;
+	:date_of_birth "31/5/2003" ;
+	:nationality "Slovenian" ;
+	:position "Forward" .
+:Player_295 a :Player ;
+	:name "Nino Žugelj" ;
+	:date_of_birth "23/4/2000" ;
+	:nationality "Slovenian" ;
+	:position "Forward" .
+:Player_296 a :Player ;
+	:name "Žan Celar" ;
+	:date_of_birth "14/3/1999" ;
+	:nationality "Slovenian" ;
+	:position "Forward" .
+:Player_297 a :Player ;
+	:name "Jan Mlakar" ;
+	:date_of_birth "23/10/1998" ;
+	:nationality "Slovenian" ;
+	:position "Forward" .
+:Player_298 a :Player ;
+	:name "Žan Vipotnik" ;
+	:date_of_birth "23/10/1998" ;
+	:nationality "Slovenian" ;
+	:position "Forward" .
+:Player_299 a :Player ;
+	:name "Andres Vombergar" ;
+	:date_of_birth "20/11/1994" ;
+	:nationality "Slovenian" ;
+	:position "Forward" .
+:Player_300 a :Player ;
+	:name "Luka Zahović" ;
+	:date_of_birth "15/11/1995" ;
+	:nationality "Slovenian" ;
+	:position "Forward" .
+:Player_301 a :Player ;
+	:name "Timi Elšnik" ;
+	:date_of_birth "29/4/1998" ;
+	:nationality "Slovenian" ;
+	:position "Forward" .
+:Player_302 a :Player ;
+	:name "Aljoša Matko" ;
+	:date_of_birth "29/3/2000" ;
+	:nationality "Slovenian" ;
+	:position "Forward" .
+
+
+# Denmark
+
+:Player_303 a :Player ;
+	:name "Kasper Schmeichel" ;
+	:date_of_birth "05/11/1986" ;
+	:nationality "Danish" ;
+	:position "Goalkeeper" .
+:Player_304 a :Player ;
+	:name "Mads Hermansen" ;
+	:date_of_birth "11/7/2000" ;
+	:nationality "Danish" ;
+	:position "Goalkeeper" .
+:Player_305 a :Player ;
+	:name "Frederik Rønnow" ;
+	:date_of_birth "04/8/1992" ;
+	:nationality "Danish" ;
+	:position "Goalkeeper" .
+:Player_306 a :Player ;
+	:name "Joachim Andersen" ;
+	:date_of_birth "31/5/1996" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_307 a :Player ;
+	:name "Mathias Jørgensen" ;
+	:date_of_birth "23/4/1990" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_308 a :Player ;
+	:name "Victor Nelsson" ;
+	:date_of_birth "14/10/1998" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_309 a :Player ;
+	:name "Jannik Vestergaard" ;
+	:date_of_birth "03/8/1992" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_310 a :Player ;
+	:name "Simon Kjær" ;
+	:date_of_birth "26/3/1989" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_311 a :Player ;
+	:name "Joakim Mæhle" ;
+	:date_of_birth "20/5/1997" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_312 a :Player ;
+	:name "Andreas Christensen" ;
+	:date_of_birth "10/4/1996" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_313 a :Player ;
+	:name "Rasmus Kristensen" ;
+	:date_of_birth "11/7/1997" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_314 a :Player ;
+	:name "Victor Kristiansen" ;
+	:date_of_birth "16/12/2002" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_315 a :Player ;
+	:name "Jens Stryger" ;
+	:date_of_birth "21/2/1991" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_316 a :Player ;
+	:name "Alexander Bah" ;
+	:date_of_birth "09/12/1997" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_317 a :Player ;
+	:name "Elias Jelert" ;
+	:date_of_birth "12/6/2003" ;
+	:nationality "Danish" ;
+	:position "Defender" .
+:Player_318 a :Player ;
+	:name "Mathias Jensen" ;
+	:date_of_birth "01/1/1996" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_319 a :Player ;
+	:name "Philip Billing" ;
+	:date_of_birth "11/6/1996" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_320 a :Player ;
+	:name "Thomas Delaney" ;
+	:date_of_birth "03/9/1991" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_321 a :Player ;
+	:name "Mohamed Daramy" ;
+	:date_of_birth "07/1/2002" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_322 a :Player ;
+	:name "Matthew O'Riley" ;
+	:date_of_birth "21/11/2000" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_323 a :Player ;
+	:name "Christian Eriksen" ;
+	:date_of_birth "14/2/1992" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_324 a :Player ;
+	:name "Jacob Bruun Larsen" ;
+	:date_of_birth "19/9/1998" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_325 a :Player ;
+	:name "Morten Hjulmand" ;
+	:date_of_birth "25/6/1999" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_326 a :Player ;
+	:name "Christian Nørgaard" ;
+	:date_of_birth "10/3/1994" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_327 a :Player ;
+	:name "Robert Skov" ;
+	:date_of_birth "20/5/1996" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_328 a :Player ;
+	:name "Jesper Lindstrøm" ;
+	:date_of_birth "29/2/2000" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_329 a :Player ;
+	:name "Anders Dreyer" ;
+	:date_of_birth "02/5/1998" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_330 a :Player ;
+	:name "Pierre-Emile Højbjerg" ;
+	:date_of_birth "05/8/1995" ;
+	:nationality "Danish" ;
+	:position "Midfielder" .
+:Player_331 a :Player ;
+	:name "Andreas Skov Olsen" ;
+	:date_of_birth "29/12/1999" ;
+	:nationality "Danish" ;
+	:position "Forward" .
+:Player_332 a :Player ;
+	:name "Martin Braithwaite" ;
+	:date_of_birth "05/6/1991" ;
+	:nationality "Danish" ;
+	:position "Forward" .
+:Player_333 a :Player ;
+	:name "Rasmus Højlund" ;
+	:date_of_birth "04/2/2003" ;
+	:nationality "Danish" ;
+	:position "Forward" .
+:Player_334 a :Player ;
+	:name "Marcus Ingvartsen" ;
+	:date_of_birth "04/1/1996" ;
+	:nationality "Danish" ;
+	:position "Forward" .
+:Player_335 a :Player ;
+	:name "Kasper Dolberg" ;
+	:date_of_birth "06/10/1997" ;
+	:nationality "Danish" ;
+	:position "Forward" .
+:Player_336 a :Player ;
+	:name "Nicolai Vallys" ;
+	:date_of_birth "04/9/1996" ;
+	:nationality "Danish" ;
+	:position "Forward" .
+:Player_337 a :Player ;
+	:name "Mikkel Damsgaard" ;
+	:date_of_birth "03/7/2000" ;
+	:nationality "Danish" ;
+	:position "Forward" .
+:Player_338 a :Player ;
+	:name "Jonas Wind" ;
+	:date_of_birth "07/2/1999" ;
+	:nationality "Danish" ;
+	:position "Forward" .
+:Player_339 a :Player ;
+	:name "Yussuf Poulsen" ;
+	:date_of_birth "15/6/1994" ;
+	:nationality "Danish" ;
+	:position "Forward" .
+
+
+#Serbia
+
+:Player_340 a :Player ;
+	:name "Predrag Rajković" ;
+	:date_of_birth "31/10/1995" ;
+	:nationality "Serbian" ;
+	:position "Goalkeeper" .
+:Player_341 a :Player ;
+	:name "Marko Dmitrović" ;
+	:date_of_birth "24/1/1992" ;
+	:nationality "Serbian" ;
+	:position "Goalkeeper" .
+:Player_342 a :Player ;
+	:name "Boris Radunović" ;
+	:date_of_birth "26/5/1996" ;
+	:nationality "Serbian" ;
+	:position "Goalkeeper" .
+:Player_343 a :Player ;
+	:name "Dragan Rosić" ;
+	:date_of_birth "22/9/1996" ;
+	:nationality "Serbian" ;
+	:position "Goalkeeper" .
+:Player_344 a :Player ;
+	:name "Filip Stankovic" ;
+	:date_of_birth "25/2/2002" ;
+	:nationality "Serbian" ;
+	:position "Goalkeeper" .
+:Player_345 a :Player ;
+	:name "Đorđe Petrović" ;
+	:date_of_birth "08/10/1999" ;
+	:nationality "Serbian" ;
+	:position "Goalkeeper" .
+:Player_346 a :Player ;
+	:name "Vanja Milinković-Savić" ;
+	:date_of_birth "20/2/1997" ;
+	:nationality "Serbian" ;
+	:position "Goalkeeper" .
+:Player_347 a :Player ;
+	:name "Strahinja Pavlović" ;
+	:date_of_birth "24/5/2001" ;
+	:nationality "Serbian" ;
+	:position "Defender" .
+:Player_348 a :Player ;
+	:name "Filip Mladenović" ;
+	:date_of_birth "15/8/1991" ;
+	:nationality "Serbian" ;
+	:position "Defender" .
+:Player_349 a :Player ;
+	:name "Nikola Milenković" ;
+	:date_of_birth "12/10/1997" ;
+	:nationality "Serbian" ;
+	:position "Defender" .
+:Player_350 a :Player ;
+	:name "Aleksa Terzić" ;
+	:date_of_birth "17/8/1999" ;
+	:nationality "Serbian" ;
+	:position "Defender" .
+:Player_351 a :Player ;
+	:name "Nemanja Stojić" ;
+	:date_of_birth "15/1/1998" ;
+	:nationality "Serbian" ;
+	:position "Defender" .
+:Player_352 a :Player ;
+	:name "Miloš Veljković" ;
+	:date_of_birth "26/9/1995" ;
+	:nationality "Serbian" ;
+	:position "Defender" .
+:Player_353 a :Player ;
+	:name "Erhan Mašović" ;
+	:date_of_birth "22/11/1998" ;
+	:nationality "Serbian" ;
+	:position "Defender" .
+:Player_354 a :Player ;
+	:name "Srđan Babić" ;
+	:date_of_birth "22/4/1996" ;
+	:nationality "Serbian" ;
+	:position "Defender" .
+:Player_355 a :Player ;
+	:name "Strahinja Eraković" ;
+	:date_of_birth "22/1/2001" ;
+	:nationality "Serbian" ;
+	:position "Defender" .
+:Player_356 a :Player ;
+	:name "Nemanja Maksimović" ;
+	:date_of_birth "26/1/1995" ;
+	:nationality "Serbian" ;
+	:position "Midfielder" .
+:Player_357 a :Player ;
+	:name "Nemanja Gudelj" ;
+	:date_of_birth "16/11/1991" ;
+	:nationality "Serbian" ;
+	:position "Midfielder" .
+:Player_358 a :Player ;
+	:name "Lazar Samardžić" ;
+	:date_of_birth "24/2/2002" ;
+	:nationality "Serbian" ;
+	:position "Midfielder" .
+:Player_359 a :Player ;
+	:name "Mijat Gaćinović" ;
+	:date_of_birth "08/2/1995" ;
+	:nationality "Serbian" ;
+	:position "Midfielder" .
+:Player_360 a :Player ;
+	:name "Ivan Ilić" ;
+	:date_of_birth "17/3/2001" ;
+	:nationality "Serbian" ;
+	:position "Midfielder" .
+:Player_361 a :Player ;
+	:name "Uroš Račić" ;
+	:date_of_birth "17/3/1998" ;
+	:nationality "Serbian" ;
+	:position "Midfielder" .
+:Player_362 a :Player ;
+	:name "Marko Grujić" ;
+	:date_of_birth "13/4/1996" ;
+	:nationality "Serbian" ;
+	:position "Midfielder" .
+:Player_363 a :Player ;
+	:name "Sergej Milinković-Savić" ;
+	:date_of_birth "27/2/1995" ;
+	:nationality "Serbian" ;
+	:position "Midfielder" .
+:Player_364 a :Player ;
+	:name "Filip Đuričić" ;
+	:date_of_birth "30/1/1992" ;
+	:nationality "Serbian" ;
+	:position "Midfielder" .
+:Player_365 a :Player ;
+	:name "Stefan Mitrović" ;
+	:date_of_birth "15/8/2002" ;
+	:nationality "Serbian" ;
+	:position "Midfielder" .
+:Player_366 a :Player ;
+	:name "Saša Lukić" ;
+	:date_of_birth "13/8/1996" ;
+	:nationality "Serbian" ;
+	:position "Midfielder" .
+:Player_367 a :Player ;
+	:name "Nemanja Radonjić" ;
+	:date_of_birth "15/2/1996" ;
+	:nationality "Serbian" ;
+	:position "Forward" .
+:Player_368 a :Player ;
+	:name "Luka Jović" ;
+	:date_of_birth "23/12/1997" ;
+	:nationality "Serbian" ;
+	:position "Forward" .
+:Player_369 a :Player ;
+	:name "Petar Ratkov" ;
+	:date_of_birth "18/8/2003" ;
+	:nationality "Serbian" ;
+	:position "Forward" .
+:Player_370 a :Player ;
+	:name "Dejan Joveljić" ;
+	:date_of_birth "07/8/1999" ;
+	:nationality "Serbian" ;
+	:position "Forward" .
+:Player_371 a :Player ;
+	:name "Aleksandar Mitrović" ;
+	:date_of_birth "16/9/1994" ;
+	:nationality "Serbian" ;
+	:position "Forward" .
+:Player_372 a :Player ;
+	:name "Dušan Tadić" ;
+	:date_of_birth "20/11/1988" ;
+	:nationality "Serbian" ;
+	:position "Forward" .
+:Player_373 a :Player ;
+	:name "Filip Kostić" ;
+	:date_of_birth "01/11/1992" ;
+	:nationality "Serbian" ;
+	:position "Forward" .
+:Player_374 a :Player ;
+	:name "Andrija Živković" ;
+	:date_of_birth "11/7/1996" ;
+	:nationality "Serbian" ;
+	:position "Forward" .
+:Player_375 a :Player ;
+	:name "Dušan Vlahović" ;
+	:date_of_birth "28/1/2000" ;
+	:nationality "Serbian" ;
+	:position "Forward" .
+:Player_376 a :Player ;
+	:name "Djordje Jovanović" ;
+	:date_of_birth "15/2/1999" ;
+	:nationality "Serbian" ;
+	:position "Forward" .
+:Player_377 a :Player ;
+	:name "Darko Lazović" ;
+	:date_of_birth "15/9/1990" ;
+	:nationality "Serbian" ;
+	:position "Forward" .
+
+#England
+
+:Player_378 a :Player ;
+	:name "Jordan Pickford" ;
+	:date_of_birth "07/3/1994" ;
+	:nationality "English" ;
+	:position "Goalkeeper" .
+:Player_379 a :Player ;
+	:name "Sam Johnstone" ;
+	:date_of_birth "25/3/1993" ;
+	:nationality "English" ;
+	:position "Goalkeeper" .
+:Player_380 a :Player ;
+	:name "Fraser Forster" ;
+	:date_of_birth "17/3/1988" ;
+	:nationality "English" ;
+	:position "Goalkeeper" .
+:Player_381 a :Player ;
+	:name "Aaron Ramsdale" ;
+	:date_of_birth "14/5/1998" ;
+	:nationality "English" ;
+	:position "Goalkeeper" .
+:Player_382 a :Player ;
+	:name "Trent Alexander-Arnold" ;
+	:date_of_birth "07/10/1998" ;
+	:nationality "English" ;
+	:position "Defendery" .
+:Player_383 a :Player ;
+	:name "Reece James" ;
+	:date_of_birth "08/12/1999" ;
+	:nationality "English" ;
+	:position "Defendery" .
+:Player_384 a :Player ;
+	:name "Marc Guéhi" ;
+	:date_of_birth "13/7/2000" ;
+	:nationality "English" ;
+	:position "Defendery" .
+:Player_385 a :Player ;
+	:name "Kieran Trippier" ;
+	:date_of_birth "19/9/1990" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_386 a :Player ;
+	:name "Ezri Konsa" ;
+	:date_of_birth "23/10/1997" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_387 a :Player ;
+	:name "John Stones" ;
+	:date_of_birth "28/5/1994" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_388 a :Player ;
+	:name "Luke Shaw" ;
+	:date_of_birth "12/7/1995" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_389 a :Player ;
+	:name "Ben Chilwell" ;
+	:date_of_birth "21/12/1996" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_390 a :Player ;
+	:name "Eric Dier" ;
+	:date_of_birth "15/1/1994" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_391 a :Player ;
+	:name "Fikayo Tomori" ;
+	:date_of_birth "19/12/1997" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_392 a :Player ;
+	:name "Tyrone Mings" ;
+	:date_of_birth "13/3/1993" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_393 a :Player ;
+	:name "Harry Maguire" ;
+	:date_of_birth "05/3/1993" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_394 a :Player ;
+	:name "Levi Colwill" ;
+	:date_of_birth "26/2/2003" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_395 a :Player ;
+	:name "Kyle Walker" ;
+	:date_of_birth "28/5/1990" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_396 a :Player ;
+	:name "Rico Lewis" ;
+	:date_of_birth "21/11/2004" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_397 a :Player ;
+	:name "Lewis Dunk" ;
+	:date_of_birth "21/11/1991" ;
+	:nationality "English" ;
+	:position "Defender" .
+:Player_398 a :Player ;
+	:name "Conor Gallagher" ;
+	:date_of_birth "06/2/2000" ;
+	:nationality "English" ;
+	:position "Midfielder" .
+:Player_399 a :Player ;
+	:name "Cole Palmer" ;
+	:date_of_birth "06/5/2002" ;
+	:nationality "English" ;
+	:position "Midfielder" .
+:Player_400 a :Player ;
+	:name "Jack Grealish" ;
+	:date_of_birth "10/9/1995" ;
+	:nationality "English" ;
+	:position "Midfielder" .
+:Player_401 a :Player ;
+	:name "Jude Bellingham" ;
+	:date_of_birth "29/6/2003" ;
+	:nationality "English" ;
+	:position "Midfielder" .
+:Player_402 a :Player ;
+	:name "Kalvin Phillips" ;
+	:date_of_birth "02/12/1995" ;
+	:nationality "English" ;
+	:position "Midfielder" .
+:Player_403 a :Player ;
+	:name "James Maddison" ;
+	:date_of_birth "23/11/1996" ;
+	:nationality "English" ;
+	:position "Midfielder" .
+:Player_404 a :Player ;
+	:name "Phil Foden" ;
+	:date_of_birth "28/5/2000" ;
+	:nationality "English" ;
+	:position "Midfielder" .
+:Player_405 a :Player ;
+	:name "Jordan Henderson" ;
+	:date_of_birth "17/6/1990" ;
+	:nationality "English" ;
+	:position "Midfielder" .
+:Player_406 a :Player ;
+	:name "Declan Rice" ;
+	:date_of_birth "14/1/1999" ;
+	:nationality "English" ;
+	:position "Midfielder" .
+:Player_407 a :Player ;
+	:name "Jarrod Bowen" ;
+	:date_of_birth "20/12/1996" ;
+	:nationality "English" ;
+	:position "Forward" .
+:Player_408 a :Player ;
+	:name "Callum Wilson" ;
+	:date_of_birth "27/2/1992" ;
+	:nationality "English" ;
+	:position "Forward" .
+:Player_409 a :Player ;
+	:name "Marcus Rashford" ;
+	:date_of_birth "31/10/1997" ;
+	:nationality "English" ;
+	:position "Forward" .
+:Player_410 a :Player ;
+	:name "Eddie Nketiah" ;
+	:date_of_birth "30/5/1999" ;
+	:nationality "English" ;
+	:position "Forward" .
+:Player_411 a :Player ;
+	:name "Ivan Toney" ;
+	:date_of_birth "16/3/1996" ;
+	:nationality "English" ;
+	:position "Forward" .
+:Player_412 a :Player ;
+	:name "Ollie Watkins" ;
+	:date_of_birth "30/12/1995" ;
+	:nationality "English" ;
+	:position "Forward" .
+:Player_413 a :Player ;
+	:name "Harry Kane" ;
+	:date_of_birth "28/7/1993" ;
+	:nationality "English" ;
+	:position "Forward" .
+:Player_414 a :Player ;
+	:name "Eberechi Eze" ;
+	:date_of_birth "29/6/1998" ;
+	:nationality "English" ;
+	:position "Forward" .
+:Player_415 a :Player ;
+	:name "Bukayo Saka" ;
+	:date_of_birth "05/9/2001" ;
+	:nationality "English" ;
+	:position "Forward" .
+
+
+
+#Netherlands
+
+:Player_416 a :Player ;
+	:name "Bart Verbruggen" ;
+	:date_of_birth "18/8/2002" ;
+	:nationality "Dutch" ;
+	:position "Goalkeeper" .
+:Player_417 a :Player ;
+	:name "Jasper Cillessen" ;
+	:date_of_birth "22/4/1989" ;
+	:nationality "Dutch" ;
+	:position "Goalkeeper" .
+:Player_418 a :Player ;
+	:name "Nick Olij" ;
+	:date_of_birth "01/8/1995" ;
+	:nationality "Dutch" ;
+	:position "Goalkeeper" .
+:Player_419 a :Player ;
+	:name "Justin Bijlow" ;
+	:date_of_birth "22/1/1998" ;
+	:nationality "Dutch" ;
+	:position "Goalkeeper" .
+:Player_420 a :Player ;
+	:name "Mark Flekken" ;
+	:date_of_birth "13/6/1993" ;
+	:nationality "Dutch" ;
+	:position "Goalkeeper" .
+:Player_421 a :Player ;
+	:name "Kjell Scherpen" ;
+	:date_of_birth "23/1/2000" ;
+	:nationality "Dutch" ;
+	:position "Goalkeeper" .
+:Player_422 a :Player ;
+	:name "Andries Noppert" ;
+	:date_of_birth "07/4/1994" ;
+	:nationality "Dutch" ;
+	:position "Goalkeeper" .
+:Player_423 a :Player ;
+	:name "Sven Botman" ;
+	:date_of_birth "12/1/2000" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_424 a :Player ;
+	:name "Lutsharel Geertruida" ;
+	:date_of_birth "18/7/2000" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_425 a :Player ;
+	:name "Jurriën Timber" ;
+	:date_of_birth "17/6/2001" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_426 a :Player ;
+	:name "Matthijs de Ligt" ;
+	:date_of_birth "12/8/1999" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_427 a :Player ;
+	:name "Micky van de Ven" ;
+	:date_of_birth "19/4/2001" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_428 a :Player ;
+	:name "Jordan Teze" ;
+	:date_of_birth "30/9/1999" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_429 a :Player ;
+	:name "Virgil van Dijk" ;
+	:date_of_birth "08/7/1991" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_430 a :Player ;
+	:name "Jorrel Hato" ;
+	:date_of_birth "07/3/2006" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_431 a :Player ;
+	:name "Nathan Aké" ;
+	:date_of_birth "18/2/1995" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_432 a :Player ;
+	:name "Stefan de Vrij" ;
+	:date_of_birth "05/2/1992" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_433 a :Player ;
+	:name "Quilindschy Hartman" ;
+	:date_of_birth "14/11/2001" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_434 a :Player ;
+	:name "Tyrell Malacia" ;
+	:date_of_birth "17/8/1999" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_435 a :Player ;
+	:name "Daley Blind" ;
+	:date_of_birth "09/3/1990" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_436 a :Player ;
+	:name "Ian Maatsen" ;
+	:date_of_birth "10/3/2002" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_437 a :Player ;
+	:name "Jeremie Frimpong" ;
+	:date_of_birth "10/12/2000" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_438 a :Player ;
+	:name "Denzel Dumfries" ;
+	:date_of_birth "18/4/1996" ;
+	:nationality "Dutch" ;
+	:position "Defender" .
+:Player_439 a :Player ;
+	:name "Kenneth Taylor" ;
+	:date_of_birth "16/5/2002" ;
+	:nationality "Dutch" ;
+	:position "Midfielder" .
+:Player_440 a :Player ;
+	:name "Mats Wieffer" ;
+	:date_of_birth "16/11/1999" ;
+	:nationality "Dutch" ;
+	:position "Midfielder" .
+:Player_441 a :Player ;
+	:name "Georginio Wijnaldum" ;
+	:date_of_birth "11/11/1990" ;
+	:nationality "Dutch" ;
+	:position "Midfielder" .
+:Player_442 a :Player ;
+	:name "Davy Klaassen" ;
+	:date_of_birth "21/2/1993" ;
+	:nationality "Dutch" ;
+	:position "Midfielder" .
+:Player_443 a :Player ;
+	:name "Tijjani Reijnders" ;
+	:date_of_birth "29/7/1998" ;
+	:nationality "Dutch" ;
+	:position "Midfielder" .
+:Player_444 a :Player ;
+	:name "Marten de Roon" ;
+	:date_of_birth "29/3/1991" ;
+	:nationality "Dutch" ;
+	:position "Midfielder" .
+:Player_445 a :Player ;
+	:name "Joey Veerman" ;
+	:date_of_birth "19/11/1998" ;
+	:nationality "Dutch" ;
+	:position "Midfielder" .
+:Player_446 a :Player ;
+	:name "Teun Koopmeiners" ;
+	:date_of_birth "28/2/1998" ;
+	:nationality "Dutch" ;
+	:position "Midfielder" .
+:Player_447 a :Player ;
+	:name "Ryan Gravenberch" ;
+	:date_of_birth "16/5/2002" ;
+	:nationality "Dutch" ;
+	:position "Midfielder" .
+:Player_448 a :Player ;
+	:name "Frenkie de Jong" ;
+	:date_of_birth "12/5/1997" ;
+	:nationality "Dutch" ;
+	:position "Midfielder" .
+:Player_449 a :Player ;
+	:name "Jerdy Schouten" ;
+	:date_of_birth "12/1/1997" ;
+	:nationality "Dutch" ;
+	:position "Midfielder" .
+:Player_450 a :Player ;
+	:name "Steven Bergwijn" ;
+	:date_of_birth "08/10/1997" ;
+	:nationality "Dutch" ;
+	:position "Forward" .
+:Player_451 a :Player ;
+	:name "Cody Gakpo" ;
+	:date_of_birth "07/5/1999" ;
+	:nationality "Dutch" ;
+	:position "Forward" .
+:Player_452 a :Player ;
+	:name "Wout Weghorst" ;
+	:date_of_birth "07/8/1992" ;
+	:nationality "Dutch" ;
+	:position "Forward" .
+:Player_453 a :Player ;
+	:name "Memphis Depay" ;
+	:date_of_birth "13/2/1994" ;
+	:nationality "Dutch" ;
+	:position "Forward" .
+:Player_454 a :Player ;
+	:name "Noa Lang" ;
+	:date_of_birth "17/6/1999" ;
+	:nationality "Dutch" ;
+	:position "Forward" .
+:Player_455 a :Player ;
+	:name "Xavi Simons" ;
+	:date_of_birth "21/4/2003" ;
+	:nationality "Dutch" ;
+	:position "Forward" .
+:Player_456 a :Player ;
+	:name "Calvin Stengs" ;
+	:date_of_birth "18/12/1998" ;
+	:nationality "Dutch" ;
+	:position "Forward" .
+:Player_457 a :Player ;
+	:name "Steven Berghuis" ;
+	:date_of_birth "19/12/1991" ;
+	:nationality "Dutch" ;
+	:position "Forward" .
+:Player_458 a :Player ;
+	:name "Donyell Malen" ;
+	:date_of_birth "19/1/1999" ;
+	:nationality "Dutch" ;
+	:position "Forward" .
+:Player_459 a :Player ;
+	:name "Brian Brobbey" ;
+	:date_of_birth "01/2/2002" ;
+	:nationality "Dutch" ;
+	:position "Forward" .
+:Player_460 a :Player ;
+	:name "Thijs Dallinga" ;
+	:date_of_birth "03/8/2000" ;
+	:nationality "Dutch" ;
+	:position "Forward" .
+
+
+
+#Austria
+
+:Player_461 a :Player ;
+	:name "Alexander Schlager" ;
+	:date_of_birth "01/2/1996" ;
+	:nationality "Austrian" ;
+	:position "Goalkeeper" .
+:Player_462 a :Player ;
+	:name "Niklas Hedl" ;
+	:date_of_birth "17/3/2001" ;
+	:nationality "Austrian" ;
+	:position "Goalkeeper" .
+:Player_463 a :Player ;
+	:name "Heinz Lindner" ;
+	:date_of_birth "17/7/1990" ;
+	:nationality "Austrian" ;
+	:position "Goalkeeper" .
+:Player_464 a :Player ;
+	:name "Tobias Lawal" ;
+	:date_of_birth "07/6/2000" ;
+	:nationality "Austrian" ;
+	:position "Goalkeeper" .
+:Player_465 a :Player ;
+	:name "Patrick Pentz" ;
+	:date_of_birth "02/1/1997" ;
+	:nationality "Austrian" ;
+	:position "Goalkeeper" .
+:Player_466 a :Player ;
+	:name "Daniel Bachmann" ;
+	:date_of_birth "09/7/1994" ;
+	:nationality "Austrian" ;
+	:position "Goalkeeper" .
+:Player_467 a :Player ;
+	:name "Stefan Lainer" ;
+	:date_of_birth "27/8/1992" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_468 a :Player ;
+	:name "Andreas Ulmer" ;
+	:date_of_birth "30/10/1985" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_469 a :Player ;
+	:name "Maximilian Wöber" ;
+	:date_of_birth "04/2/1998" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_470 a :Player ;
+	:name "Kevin Danso" ;
+	:date_of_birth "19/9/1998" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_471 a :Player ;
+	:name "Jonas Auer" ;
+	:date_of_birth "05/8/2000" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_472 a :Player ;
+	:name "Stefan Posch" ;
+	:date_of_birth "14/5/1997" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_473 a :Player ;
+	:name "David Alaba" ;
+	:date_of_birth "24/6/1992" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_474 a :Player ;
+	:name "Samson Baidoo" ;
+	:date_of_birth "31/3/2004" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_475 a :Player ;
+	:name "Philipp Lienhart" ;
+	:date_of_birth "11/7/1996" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_476 a :Player ;
+	:name "Phillipp Mwene" ;
+	:date_of_birth "29/1/1994" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_477 a :Player ;
+	:name "Flavius Daniliuc" ;
+	:date_of_birth "27/4/2001" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_478 a :Player ;
+	:name "Gernot Trauner" ;
+	:date_of_birth "25/3/1992" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_479 a :Player ;
+	:name "David Schnegg" ;
+	:date_of_birth "29/9/1998" ;
+	:nationality "Austrian" ;
+	:position "Defender" .
+:Player_480 a :Player ;
+	:name "Christopher Trimmel" ;
+	:date_of_birth "24/2/1987" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_481 a :Player ;
+	:name "Xaver Schlager" ;
+	:date_of_birth "28/9/1997" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_482 a :Player ;
+	:name "Nicolas Seiwald" ;
+	:date_of_birth "04/5/2001" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_483 a :Player ;
+	:name "Marco Grüll" ;
+	:date_of_birth "06/7/1998" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_484 a :Player ;
+	:name "Marcel Sabitzer" ;
+	:date_of_birth "17/3/1994" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_485 a :Player ;
+	:name "Florian Grillitsch" ;
+	:date_of_birth "07/8/1995" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_486 a :Player ;
+	:name "Dejan Ljubicic" ;
+	:date_of_birth "08/10/1997" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_487 a :Player ;
+	:name "Florian Kainz" ;
+	:date_of_birth "24/10/1992" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_488 a :Player ;
+	:name "Romano Schmid" ;
+	:date_of_birth "27/1/2000" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_489 a :Player ;
+	:name "Karim Onisiwo" ;
+	:date_of_birth "17/3/1992" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_490 a :Player ;
+	:name "Alexander Prass" ;
+	:date_of_birth "26/5/2001" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_491 a :Player ;
+	:name "Christoph Baumgartner" ;
+	:date_of_birth "01/8/1999" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_492 a :Player ;
+	:name "Konrad Laimer" ;
+	:date_of_birth "27/5/1997" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_493 a :Player ;
+	:name "Patrick Wimmer" ;
+	:date_of_birth "30/5/2001" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_494 a :Player ;
+	:name "Matthias Seidl" ;
+	:date_of_birth "24/1/2001" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_495 a :Player ;
+	:name "Muhammed Cham" ;
+	:date_of_birth "26/9/2000" ;
+	:nationality "Austrian" ;
+	:position "Midfielder" .
+:Player_496 a :Player ;
+	:name "Guido Burgstaller" ;
+	:date_of_birth "29/4/1989" ;
+	:nationality "Austrian" ;
+	:position "Forward" .
+:Player_497 a :Player ;
+	:name "Marko Arnautović" ;
+	:date_of_birth "19/4/1989" ;
+	:nationality "Austrian" ;
+	:position "Forward" .
+:Player_498 a :Player ;
+	:name "Andreas Weimann" ;
+	:date_of_birth "05/8/1991" ;
+	:nationality "Austrian" ;
+	:position "Forward" .
+:Player_499 a :Player ;
+	:name "Michael Gregoritsch" ;
+	:date_of_birth "18/4/1994" ;
+	:nationality "Austrian" ;
+	:position "Forward" .
+:Player_500 a :Player ;
+	:name "Maximilian Entrup" ;
+	:date_of_birth "25/7/1997" ;
+	:nationality "Austrian" ;
+	:position "Forward" .
+:Player_501 a :Player ;
+	:name "Sasa Kalajdzic" ;
+	:date_of_birth "07/7/1997" ;
+	:nationality "Austrian" ;
+	:position "Forward" .
+:Player_502 a :Player ;
+	:name "Junior Adamu" ;
+	:date_of_birth "06/6/2001" ;
+	:nationality "Austrian" ;
+	:position "Forward" .
+:Player_503 a :Player ;
+	:name "Manprit Sarkaria" ;
+	:date_of_birth "26/8/1996" ;
+	:nationality "Austrian" ;
+	:position "Forward" .
+
+
+#france
+
+:Player_504 a :Player ;
+	:name "Brice Samba" ;
+	:date_of_birth "25/4/1994" ;
+	:nationality "French" ;
+	:position "Goalkeeper" .
+:Player_505 a :Player ;
+	:name "Mike Maignan" ;
+	:date_of_birth "03/7/1995" ;
+	:nationality "French" ;
+	:position "Goalkeeper" .
+:Player_506 a :Player ;
+	:name "Alphonse Areola" ;
+	:date_of_birth "27/2/1993" ;
+	:nationality "French" ;
+	:position "Goalkeeper" .
+:Player_507 a :Player ;
+	:name "Benjamin Pavard" ;
+	:date_of_birth "28/3/1996" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_508 a :Player ;
+	:name "Jonathan Clauss" ;
+	:date_of_birth "25/9/1992" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_509 a :Player ;
+	:name "Axel Disasi" ;
+	:date_of_birth "11/3/1998" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_510 a :Player ;
+	:name "Dayot Upamecano" ;
+	:date_of_birth "27/10/1998" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_511 a :Player ;
+	:name "Malo Gusto" ;
+	:date_of_birth "19/5/2003" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_512 a :Player ;
+	:name "Castello Lukeba" ;
+	:date_of_birth "17/12/2002" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_513 a :Player ;
+	:name "Jules Koundé" ;
+	:date_of_birth "12/11/1998" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_515 a :Player ;
+	:name "Ibrahima Konaté" ;
+	:date_of_birth "25/5/1999" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_516 a :Player ;
+	:name "Jean-Clair Todibo" ;
+	:date_of_birth "30/12/1999" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_517 a :Player ;
+	:name "Wesley Fofana" ;
+	:date_of_birth "17/12/2000" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_518 a :Player ;
+	:name "William Saliba" ;
+	:date_of_birth "24/3/2001" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_519 a :Player ;
+	:name "Ferland Mendy" ;
+	:date_of_birth "08/6/1995" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_520 a :Player ;
+	:name "Lucas Hernández" ;
+	:date_of_birth "14/2/1996" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_521 a :Player ;
+	:name "Theo Hernández" ;
+	:date_of_birth "06/10/1997" ;
+	:nationality "French" ;
+	:position "Defender" .
+:Player_522 a :Player ;
+	:name "Khephren Thuram" ;
+	:date_of_birth "26/3/2001" ;
+	:nationality "French" ;
+	:position "Midfielder" .
+:Player_523 a :Player ;
+	:name "Eduardo Camavinga" ;
+	:date_of_birth "10/11/2002" ;
+	:nationality "French" ;
+	:position "Midfielder" .
+:Player_524 a :Player ;
+	:name "Aurélien Tchouameni" ;
+	:date_of_birth "27/1/2000" ;
+	:nationality "French" ;
+	:position "Midfielder" .
+:Player_525 a :Player ;
+	:name "Warren Zaïre-Emery" ;
+	:date_of_birth "08/3/2006" ;
+	:nationality "French" ;
+	:position "Midfielder" .
+:Player_526 a :Player ;
+	:name "Adrien Rabiot" ;
+	:date_of_birth "03/4/1995" ;
+	:nationality "French" ;
+	:position "Midfielder" .
+:Player_527 a :Player ;
+	:name "Christopher Nkunku" ;
+	:date_of_birth "14/11/1997" ;
+	:nationality "French" ;
+	:position "Midfielder" .
+:Player_528 a :Player ;
+	:name "Boubacar Kamara" ;
+	:date_of_birth "23/11/1999" ;
+	:nationality "French" ;
+	:position "Midfielder" .
+:Player_529 a :Player ;
+	:name "Jordan Veretout" ;
+	:date_of_birth "01/3/1993" ;
+	:nationality "French" ;
+	:position "Midfielder" .
+:Player_530 a :Player ;
+	:name "Youssouf Fofana" ;
+	:date_of_birth "10/1/1999" ;
+	:nationality "French" ;
+	:position "Midfielder" .
+:Player_531 a :Player ;
+	:name "Antoine Griezmann" ;
+	:date_of_birth "21/3/1991" ;
+	:nationality "French" ;
+	:position "Forward" .
+:Player_532 a :Player ;
+	:name "Olivier Giroud" ;
+	:date_of_birth "30/9/1986" ;
+	:nationality "French" ;
+	:position "Forward" .
+:Player_533 a :Player ;
+	:name "Kylian Mbappé" ;
+	:date_of_birth "20/12/1998" ;
+	:nationality "French" ;
+	:position "Forward" .
+:Player_534 a :Player ;
+	:name "Ousmane Dembélé" ;
+	:date_of_birth "15/5/1997" ;
+	:nationality "French" ;
+	:position "Forward" .
+:Player_535 a :Player ;
+	:name "Randal Kolo Muani" ;
+	:date_of_birth "05/12/1998" ;
+	:nationality "French" ;
+	:position "Forward" .
+:Player_536 a :Player ;
+	:name "Marcus Thuram" ;
+	:date_of_birth "06/8/1997" ;
+	:nationality "French" ;
+	:position "Forward" .
+:Player_537 a :Player ;
+	:name "Moussa Diaby" ;
+	:date_of_birth "07/7/1999" ;
+	:nationality "French" ;
+	:position "Forward" .
+:Player_538 a :Player ;
+	:name "Kingsley Coman" ;
+	:date_of_birth "13/6/1996" ;
+	:nationality "French" ;
+	:position "Forward" .
+
+
+
+#Belgium
+
+:Player_539 a :Player ;
+	:name "Thomas Kaminski" ;
+	:date_of_birth "23/10/1992" ;
+	:nationality "Belgian" ;
+	:position "Goalkeeper" .
+:Player_540 a :Player ;
+	:name "Thibaut Courtois" ;
+	:date_of_birth "11/5/1992" ;
+	:nationality "Belgian" ;
+	:position "Goalkeeper" .
+:Player_541 a :Player ;
+	:name "Arnaud Bodart" ;
+	:date_of_birth "11/3/1998" ;
+	:nationality "Belgian" ;
+	:position "Goalkeeper" .
+:Player_542 a :Player ;
+	:name "Koen Casteels" ;
+	:date_of_birth "25/6/1992" ;
+	:nationality "Belgian" ;
+	:position "Goalkeeper" .
+:Player_543 a :Player ;
+	:name "Matz Sels" ;
+	:date_of_birth "26/2/1992" ;
+	:nationality "Belgian" ;
+	:position "Goalkeeper" .
+:Player_544 a :Player ;
+	:name "Sebastiaan Bornauw" ;
+	:date_of_birth "22/3/1999" ;
+	:nationality "Belgian" ;
+	:position "Defender" .
+:Player_545 a :Player ;
+	:name "Zeno Debast" ;
+	:date_of_birth "24/10/2003" ;
+	:nationality "Belgian" ;
+	:position "Defender" .
+:Player_546 a :Player ;
+	:name "Arthur Theate" ;
+	:date_of_birth "25/5/2000" ;
+	:nationality "Belgian" ;
+	:position "Defender" .
+:Player_547 a :Player ;
+	:name "Wout Faes" ;
+	:date_of_birth "03/4/1998" ;
+	:nationality "Belgian" ;
+	:position "Defender" .
+:Player_548 a :Player ;
+	:name "Jan Vertonghen" ;
+	:date_of_birth "24/4/1987" ;
+	:nationality "Belgian" ;
+	:position "Defender" .
+:Player_549 a :Player ;
+	:name "Thomas Meunier" ;
+	:date_of_birth "12/9/1991" ;
+	:nationality "Belgian" ;
+	:position "Defender" .
+:Player_550 a :Player ;
+	:name "Ameen Al-Dakhil" ;
+	:date_of_birth "06/3/2002" ;
+	:nationality "Belgian" ;
+	:position "Defender" .
+:Player_551 a :Player ;
+	:name "Zinho Vanheusden" ;
+	:date_of_birth "29/7/1999" ;
+	:nationality "Belgian" ;
+	:position "Defender" .
+:Player_552 a :Player ;
+	:name "Timothy Castagne" ;
+	:date_of_birth "05/12/1995" ;
+	:nationality "Belgian" ;
+	:position "Defender" .
+:Player_553 a :Player ;
+	:name "Hugo Siquet" ;
+	:date_of_birth "09/7/2002" ;
+	:nationality "Belgian" ;
+	:position "Defender" .
+:Player_554 a :Player ;
+	:name "Leander Dendoncker" ;
+	:date_of_birth "15/4/1995" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_555 a :Player ;
+	:name "Aster Vranckx" ;
+	:date_of_birth "04/10/2002" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_556 a :Player ;
+	:name "Amadou Onana" ;
+	:date_of_birth "16/8/2001" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_557 a :Player ;
+	:name "Kevin De Bruyne" ;
+	:date_of_birth "28/6/1991" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_558 a :Player ;
+	:name "Youri Tielemans" ;
+	:date_of_birth "07/5/1997" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_559 a :Player ;
+	:name "Leandro Trossard" ;
+	:date_of_birth "04/12/1994" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_560 a :Player ;
+	:name "Yannick Carrasco" ;
+	:date_of_birth "04/9/1993" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_561 a :Player ;
+	:name "Mike Trésor" ;
+	:date_of_birth "28/5/1999" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_562 a :Player ;
+	:name "Olivier Deman" ;
+	:date_of_birth "06/4/2000" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_563 a :Player ;
+	:name "Orel Mangala" ;
+	:date_of_birth "18/3/1998" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_564 a :Player ;
+	:name "Romeo Lavia" ;
+	:date_of_birth "06/1/2004" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_565 a :Player ;
+	:name "Dennis Praet" ;
+	:date_of_birth "14/5/1994" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_566 a :Player ;
+	:name "Johan Bakayoko" ;
+	:date_of_birth "20/4/2003" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_567 a :Player ;
+	:name "Arthur Vermeeren" ;
+	:date_of_birth "07/2/2005" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_568 a :Player ;
+	:name "Hans Vanaken" ;
+	:date_of_birth "24/8/1992" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_569 a :Player ;
+	:name "Mandela Keita" ;
+	:date_of_birth "10/5/2002" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_570 a :Player ;
+	:name "Alexis Saelemaekers" ;
+	:date_of_birth "27/6/1999" ;
+	:nationality "Belgian" ;
+	:position "Midfielder" .
+:Player_571 a :Player ;
+	:name "Jérémy Doku" ;
+	:date_of_birth "27/5/2002" ;
+	:nationality "Belgian" ;
+	:position "Forward" .
+:Player_572 a :Player ;
+	:name "Romelu Lukaku" ;
+	:date_of_birth "13/5/1993" ;
+	:nationality "Belgian" ;
+	:position "Forward" .
+:Player_573 a :Player ;
+	:name "Dodi Lukébakio" ;
+	:date_of_birth "24/9/1997" ;
+	:nationality "Belgian" ;
+	:position "Forward" .
+:Player_574 a :Player ;
+	:name "Charles De Ketelaere" ;
+	:date_of_birth "10/3/2001" ;
+	:nationality "Belgian" ;
+	:position "Forward" .
+:Player_575 a :Player ;
+	:name "Loïs Openda" ;
+	:date_of_birth "16/2/2000" ;
+	:nationality "Belgian" ;
+	:position "Forward" .
+:Player_576 a :Player ;
+	:name "Michy Batshuayi" ;
+	:date_of_birth "02/10/1993" ;
+	:nationality "Belgian" ;
+	:position "Forward" .
+
+
+#Slovakia
+
+:Player_577 a :Player ;
+	:name "Martin Dúbravka" ;
+	:date_of_birth "15/1/1989" ;
+	:nationality "Slovak" ;
+	:position "Goalkeeper" .
+:Player_578 a :Player ;
+	:name "Marek Rodák" ;
+	:date_of_birth "13/12/1996" ;
+	:nationality "Slovak" ;
+	:position "Goalkeeper" .
+:Player_579 a :Player ;
+	:name "Henrich Ravas" ;
+	:date_of_birth "16/8/1997" ;
+	:nationality "Slovak" ;
+	:position "Goalkeeper" .
+:Player_580 a :Player ;
+	:name "Peter Pekarík" ;
+	:date_of_birth "30/10/1986" ;
+	:nationality "Slovak" ;
+	:position "Defender" .
+:Player_581 a :Player ;
+	:name "Denis Vavro" ;
+	:date_of_birth "10/4/1996" ;
+	:nationality "Slovak" ;
+	:position "Defender" .
+:Player_582 a :Player ;
+	:name "Martin Valjent" ;
+	:date_of_birth "11/12/1995" ;
+	:nationality "Slovak" ;
+	:position "Defender" .
+:Player_583 a :Player ;
+	:name "Adam Obert" ;
+	:date_of_birth "23/8/2002" ;
+	:nationality "Slovak" ;
+	:position "Defender" .
+:Player_584 a :Player ;
+	:name "Michal Tomič" ;
+	:date_of_birth "30/3/1999" ;
+	:nationality "Slovak" ;
+	:position "Defender" .
+:Player_585 a :Player ;
+	:name "Ľubomír Šatka" ;
+	:date_of_birth "02/12/1995" ;
+	:nationality "Slovak" ;
+	:position "Defender" .
+:Player_586 a :Player ;
+	:name "Norbert Gyömbér" ;
+	:date_of_birth "03/7/1992" ;
+	:nationality "Slovak" ;
+	:position "Defender" .
+:Player_587 a :Player ;
+	:name "Milan Škriniar" ;
+	:date_of_birth "11/2/1995" ;
+	:nationality "Slovak" ;
+	:position "Defender" .
+:Player_588 a :Player ;
+	:name "Vernon De Marco" ;
+	:date_of_birth "18/11/1992" ;
+	:nationality "Slovak" ;
+	:position "Defender" .
+:Player_589 a :Player ;
+	:name "Dávid Hancko" ;
+	:date_of_birth "13/12/1997" ;
+	:nationality "Slovak" ;
+	:position "Defender" .
+:Player_590 a :Player ;
+	:name "Dominik Hollý" ;
+	:date_of_birth "11/11/2003" ;
+	:nationality "Slovak" ;
+	:position "Midfielder" .
+:Player_591 a :Player ;
+	:name "Jakub Kadák" ;
+	:date_of_birth "14/12/2000" ;
+	:nationality "Slovak" ;
+	:position "Midfielder" .
+:Player_592 a :Player ;
+	:name "Christián Herc" ;
+	:date_of_birth "30/9/1998" ;
+	:nationality "Slovak" ;
+	:position "Midfielder" .
+:Player_593 a :Player ;
+	:name "Ondrej Duda" ;
+	:date_of_birth "05/12/1994" ;
+	:nationality "Slovak" ;
+	:position "Midfielder" .
+:Player_594 a :Player ;
+	:name "László Bénes" ;
+	:date_of_birth "09/9/1997" ;
+	:nationality "Slovak" ;
+	:position "Midfielder" .
+:Player_595 a :Player ;
+	:name "Patrik Hrošovský" ;
+	:date_of_birth "22/4/1992" ;
+	:nationality "Slovak" ;
+	:position "Midfielder" .
+:Player_596 a :Player ;
+	:name "Marek Hamšík" ;
+	:date_of_birth "27/7/1987" ;
+	:nationality "Slovak" ;
+	:position "Midfielder" .
+:Player_597 a :Player ;
+	:name "Erik Jirka" ;
+	:date_of_birth "19/9/1997" ;
+	:nationality "Slovak" ;
+	:position "Midfielder" .
+:Player_598 a :Player ;
+	:name "Juraj Kucka" ;
+	:date_of_birth "26/2/1987" ;
+	:nationality "Slovak" ;
+	:position "Midfielder" .
+:Player_599 a :Player ;
+	:name "Matúš Bero" ;
+	:date_of_birth "06/9/1995" ;
+	:nationality "Slovak" ;
+	:position "Midfielder" .
+:Player_600 a :Player ;
+	:name "Stanislav Lobotka" ;
+	:date_of_birth "25/11/1994" ;
+	:nationality "Slovak" ;
+	:position "Midfielder" .
+:Player_601 a :Player ;
+	:name "Tomáš Suslov" ;
+	:date_of_birth "07/6/2002" ;
+	:nationality "Slovak" ;
+	:position "Forward" .
+:Player_602 a :Player ;
+	:name "Róbert Boženík" ;
+	:date_of_birth "18/11/1999" ;
+	:nationality "Slovak" ;
+	:position "Forward" .
+:Player_603 a :Player ;
+	:name "Róbert Polievka" ;
+	:date_of_birth "09/6/1996" ;
+	:nationality "Slovak" ;
+	:position "Forward" .
+:Player_604 a :Player ;
+	:name "David Strelec" ;
+	:date_of_birth "04/4/2001" ;
+	:nationality "Slovak" ;
+	:position "Forward" .
+:Player_605 a :Player ;
+	:name "Adam Zreľák" ;
+	:date_of_birth "05/5/1994" ;
+	:nationality "Slovak" ;
+	:position "Forward" .
+:Player_606 a :Player ;
+	:name "Lukáš Haraslín" ;
+	:date_of_birth "26/5/1996" ;
+	:nationality "Slovak" ;
+	:position "Forward" .
+:Player_607 a :Player ;
+	:name "Ivan Schranz" ;
+	:date_of_birth "13/9/1993" ;
+	:nationality "Slovak" ;
+	:position "Forward" .
+:Player_608 a :Player ;
+	:name "Róbert Mak" ;
+	:date_of_birth "08/3/1991" ;
+	:nationality "Slovak" ;
+	:position "Forward" .
+:Player_609 a :Player ;
+	:name "Ľubomír Tupta" ;
+	:date_of_birth "27/3/1998" ;
+	:nationality "Slovak" ;
+	:position "Forward" .
+:Player_610 a :Player ;
+	:name "Dávid Ďuriš" ;
+	:date_of_birth "27/3/1998" ;
+	:nationality "Slovak" ;
+	:position "Forward" .
+
+
+#Romania
+
+:Player_611 a :Player ;
+	:name "Florin Niță" ;
+	:date_of_birth "03/7/1987" ;
+	:nationality "Romanian" ;
+	:position "Goalkeeper" .
+:Player_612 a :Player ;
+	:name "Horațiu Moldovan" ;
+	:date_of_birth "20/1/1998" ;
+	:nationality "Romanian" ;
+	:position "Goalkeeper" .
+:Player_613 a :Player ;
+	:name "Ştefan Târnovanu" ;
+	:date_of_birth "09/5/2000" ;
+	:nationality "Romanian" ;
+	:position "Goalkeeper" .
+:Player_614 a :Player ;
+	:name "Mihai Aioani" ;
+	:date_of_birth "07/11/1999" ;
+	:nationality "Romanian" ;
+	:position "Goalkeeper" .
+:Player_615 a :Player ;
+	:name "Ionuț Radu" ;
+	:date_of_birth "28/5/1997" ;
+	:nationality "Romanian" ;
+	:position "Goalkeeper" .
+:Player_616 a :Player ;
+	:name "Andrei Rațiu" ;
+	:date_of_birth "20/6/1998" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_617 a :Player ;
+	:name "Valentin Ţicu" ;
+	:date_of_birth "19/9/2000" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_618 a :Player ;
+	:name "Raul Opruț" ;
+	:date_of_birth "04/1/1998" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_619 a :Player ;
+	:name "Radu Drăgușin" ;
+	:date_of_birth "03/2/2002" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_620 a :Player ;
+	:name "Bogdan Racoviţan" ;
+	:date_of_birth "06/6/2000" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_621 a :Player ;
+	:name "Cristian Manea" ;
+	:date_of_birth "09/8/1997" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_622 a :Player ;
+	:name "Adrian Rus" ;
+	:date_of_birth "18/3/1996" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_623 a :Player ;
+	:name "Ionuţ Nedelcearu" ;
+	:date_of_birth "25/4/1996" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_624 a :Player ;
+	:name "Vladimir Screciu" ;
+	:date_of_birth "13/1/2000" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_625 a :Player ;
+	:name "Nicușor Bancu" ;
+	:date_of_birth "18/9/1992" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_626 a :Player ;
+	:name "Andrei Burcă" ;
+	:date_of_birth "15/4/1993" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_627 a :Player ;
+	:name "Vasile Mogoș" ;
+	:date_of_birth "31/10/1992" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_628 a :Player ;
+	:name "Mario Camora" ;
+	:date_of_birth "10/11/1986" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_629 a :Player ;
+	:name "Andrei Borza" ;
+	:date_of_birth "12/11/2005" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_630 a :Player ;
+	:name "Andres Dumitrescu" ;
+	:date_of_birth "11/3/2001" ;
+	:nationality "Romanian" ;
+	:position "Defender" .
+:Player_631 a :Player ;
+	:name "Tudor Băluţă" ;
+	:date_of_birth "27/3/1999" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_632 a :Player ;
+	:name "Marius Marin" ;
+	:date_of_birth "30/8/1998" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_633 a :Player ;
+	:name "Alexandru Cicâldău" ;
+	:date_of_birth "08/7/1997" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_634 a :Player ;
+	:name "Nicolae Stanciu" ;
+	:date_of_birth "07/5/1993" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_635 a :Player ;
+	:name "Andrei Artean" ;
+	:date_of_birth "14/8/1993" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_636 a :Player ;
+	:name "Ianis Hagi" ;
+	:date_of_birth "22/10/1998" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_637 a :Player ;
+	:name "Răzvan Marin" ;
+	:date_of_birth "23/5/1996" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_638 a :Player ;
+	:name "Darius Olaru" ;
+	:date_of_birth "03/3/1998" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_639 a :Player ;
+	:name "Olimpiu Moruţan" ;
+	:date_of_birth "25/4/1999" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_640 a :Player ;
+	:name "Octavian Popescu" ;
+	:date_of_birth "27/12/2002" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_641 a :Player ;
+	:name "Deian Sorescu" ;
+	:date_of_birth "29/8/1997" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_642 a :Player ;
+	:name "Marius Ștefănescu" ;
+	:date_of_birth "14/8/1998" ;
+	:nationality "Romanian" ;
+	:position "Midfielder" .
+:Player_643 a :Player ;
+	:name "Denis Alibec" ;
+	:date_of_birth "05/1/1991" ;
+	:nationality "Romanian" ;
+	:position "Forward" .
+:Player_644 a :Player ;
+	:name "George Puşcaş" ;
+	:date_of_birth "08/4/1996" ;
+	:nationality "Romanian" ;
+	:position "Forward" .
+:Player_645 a :Player ;
+	:name "Valentin Mihăilă" ;
+	:date_of_birth "02/2/2000" ;
+	:nationality "Romanian" ;
+	:position "Forward" .
+:Player_646 a :Player ;
+	:name "Mihai Dobre" ;
+	:date_of_birth "30/8/1998" ;
+	:nationality "Romanian" ;
+	:position "Forward" .
+:Player_647 a :Player ;
+	:name "Florinel Coman" ;
+	:date_of_birth "10/4/1998" ;
+	:nationality "Romanian" ;
+	:position "Forward" .
+:Player_648 a :Player ;
+	:name "Daniel Bîrligea" ;
+	:date_of_birth "19/4/2000" ;
+	:nationality "Romanian" ;
+	:position "Forward" .
+:Player_649 a :Player ;
+	:name "Denis Drăguş" ;
+	:date_of_birth "06/7/1999" ;
+	:nationality "Romanian" ;
+	:position "Forward" .
+:Player_650 a :Player ;
+	:name "Dennis Man" ;
+	:date_of_birth "26/8/1998" ;
+	:nationality "Romanian" ;
+	:position "Forward" .
+:Player_651 a :Player ;
+	:name "Louis Munteanu" ;
+	:date_of_birth "16/6/2002" ;
+	:nationality "Romanian" ;
+	:position "Forward" .
+:Player_652 a :Player ;
+	:name "Florin Tănase" ;
+	:date_of_birth "30/12/1994" ;
+	:nationality "Romanian" ;
+	:position "Forward" .
+
+
+
+#Turkey
+
+:Player_653 a :Player ;
+	:name "Mert Günok" ;
+	:date_of_birth "01/3/1989" ;
+	:nationality "Turkish" ;
+	:position "Goalkeeper" .
+:Player_654 a :Player ;
+	:name "Muhammed Şengezer" ;
+	:date_of_birth "05/1/1997" ;
+	:nationality "Turkish" ;
+	:position "Goalkeeper" .
+:Player_655 a :Player ;
+	:name "Ertaç Özbir" ;
+	:date_of_birth "25/10/1989" ;
+	:nationality "Turkish" ;
+	:position "Goalkeeper" .
+:Player_656 a :Player ;
+	:name "Altay Bayındır" ;
+	:date_of_birth "14/4/1998" ;
+	:nationality "Turkish" ;
+	:position "Goalkeeper" .
+:Player_657 a :Player ;
+	:name "Uğurcan Çakır" ;
+	:date_of_birth "05/4/1996" ;
+	:nationality "Turkish" ;
+	:position "Goalkeeper" .
+:Player_658 a :Player ;
+	:name "Zeki Çelik" ;
+	:date_of_birth "17/2/1997" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_659 a :Player ;
+	:name "Merih Demiral" ;
+	:date_of_birth "05/3/1998" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_660 a :Player ;
+	:name "Samet Akaydin" ;
+	:date_of_birth "13/3/1994" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_661 a :Player ;
+	:name "Çağlar Söyüncü" ;
+	:date_of_birth "23/5/1996" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_662 a :Player ;
+	:name "Eren Elmalı" ;
+	:date_of_birth "07/7/2000" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_663 a :Player ;
+	:name "Abdülkerim Bardakcı" ;
+	:date_of_birth "07/9/1994" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_664 a :Player ;
+	:name "Ozan Kabak" ;
+	:date_of_birth "25/3/2000" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_665 a :Player ;
+	:name "Onur Bulut" ;
+	:date_of_birth "16/4/1994" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_666 a :Player ;
+	:name "Ferdi Kadıoğlu" ;
+	:date_of_birth "07/10/1999" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_667 a :Player ;
+	:name "Cenk Özkacar" ;
+	:date_of_birth "06/10/2000" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_668 a :Player ;
+	:name "Mert Müldür" ;
+	:date_of_birth "03/4/1999" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_669 a :Player ;
+	:name "Mehmet Can Aydın" ;
+	:date_of_birth "09/2/2002" ;
+	:nationality "Turkish" ;
+	:position "Defender" .
+:Player_670 a :Player ;
+	:name "Salih Özcan" ;
+	:date_of_birth "11/1/1998" ;
+	:nationality "Turkish" ;
+	:position "Midfielder" .
+:Player_671 a :Player ;
+	:name "Orkun Kökçü" ;
+	:date_of_birth "29/12/2000" ;
+	:nationality "Turkish" ;
+	:position "Midfielder" .
+:Player_672 a :Player ;
+	:name "Berat Özdemir" ;
+	:date_of_birth "23/5/1998" ;
+	:nationality "Turkish" ;
+	:position "Midfielder" .
+:Player_673 a :Player ;
+	:name "İrfan Can Kahveci" ;
+	:date_of_birth "15/7/1995" ;
+	:nationality "Turkish" ;
+	:position "Midfielder" .
+:Player_674 a :Player ;
+	:name "Abdülkadir Ömür" ;
+	:date_of_birth "25/6/1999" ;
+	:nationality "Turkish" ;
+	:position "Midfielder" .
+:Player_675 a :Player ;
+	:name "Hakan Çalhanoğlu" ;
+	:date_of_birth "08/2/1994" ;
+	:nationality "Turkish" ;
+	:position "Midfielder" .
+:Player_676 a :Player ;
+	:name "İsmail Yüksek" ;
+	:date_of_birth "26/1/1999" ;
+	:nationality "Turkish" ;
+	:position "Midfielder" .
+:Player_677 a :Player ;
+	:name "Berkan Kutlu" ;
+	:date_of_birth "25/1/1998" ;
+	:nationality "Turkish" ;
+	:position "Midfielder" .
+:Player_678 a :Player ;
+	:name "Salih Uçan" ;
+	:date_of_birth "06/1/1994" ;
+	:nationality "Turkish" ;
+	:position "Midfielder" .
+:Player_679 a :Player ;
+	:name "Arda Güler" ;
+	:date_of_birth "25/2/2005" ;
+	:nationality "Turkish" ;
+	:position "Midfielder" .
+:Player_680 a :Player ;
+	:name "Kaan Ayhan" ;
+	:date_of_birth "10/11/1994" ;
+	:nationality "Turkish" ;
+	:position "Midfielder" .
+:Player_681 a :Player ;
+	:name "Emre Akbaba" ;
+	:date_of_birth "04/10/1992" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_682 a :Player ;
+	:name "Kerem Aktürkoğlu" ;
+	:date_of_birth "04/10/1992" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_683 a :Player ;
+	:name "Cenk Tosun" ;
+	:date_of_birth "07/6/1991" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_684 a :Player ;
+	:name "Umut Bozok" ;
+	:date_of_birth "19/9/1996" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_685 a :Player ;
+	:name "Halil Dervişoğlu" ;
+	:date_of_birth "08/12/1999" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_686 a :Player ;
+	:name "Barış Alper Yılmaz" ;
+	:date_of_birth "23/5/2000" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_687 a :Player ;
+	:name "Umut Nayir" ;
+	:date_of_birth "28/6/1993" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_688 a :Player ;
+	:name "Yusuf Yazıcı" ;
+	:date_of_birth "29/1/1997" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_689 a :Player ;
+	:name "Enes Ünal" ;
+	:date_of_birth "10/5/1997" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_690 a :Player ;
+	:name "Yusuf Sarı" ;
+	:date_of_birth "20/11/1998" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_691 a :Player ;
+	:name "Cengiz Ünder" ;
+	:date_of_birth "14/7/1997" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_692 a :Player ;
+	:name "Kenan Karaman" ;
+	:date_of_birth "05/3/1994" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_693 a :Player ;
+	:name "Kenan Yıldız" ;
+	:date_of_birth "04/5/2005" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_694 a :Player ;
+	:name "Bertuğ Yıldırım" ;
+	:date_of_birth "04/5/2005" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+:Player_695 a :Player ;
+	:name "Yunus Akgün" ;
+	:date_of_birth "07/7/2000" ;
+	:nationality "Turkish" ;
+	:position "Forward" .
+
+
+#Portugal
+
+:Player_696 a :Player ;
+	:name "Rui Patrício" ;
+	:date_of_birth "15/2/1988" ;
+	:nationality "Portuguese" ;
+	:position "Goalkeeper" .
+:Player_697 a :Player ;
+	:name "José Sá" ;
+	:date_of_birth "17/1/1993" ;
+	:nationality "Portuguese" ;
+	:position "Goalkeeper" .
+:Player_698 a :Player ;
+	:name "Celton Biai" ;
+	:date_of_birth "13/8/2000" ;
+	:nationality "Portuguese" ;
+	:position "Goalkeeper" .
+:Player_699 a :Player ;
+	:name "Diogo Costa" ;
+	:date_of_birth "19/9/1999" ;
+	:nationality "Portuguese" ;
+	:position "Goalkeeper" .
+:Player_700 a :Player ;
+	:name "Anthony Lopes" ;
+	:date_of_birth "01/10/1990" ;
+	:nationality "Portuguese" ;
+	:position "Goalkeeper" .
+:Player_701 a :Player ;
+	:name "Tote Gomes" ;
+	:date_of_birth "16/1/1999" ;
+	:nationality "Portuguese" ;
+	:position "Defender" .
+:Player_702 a :Player ;
+	:name "Nélson Semedo" ;
+	:date_of_birth "16/11/1993" ;
+	:nationality "Portuguese" ;
+	:position "Defender" .
+:Player_703 a :Player ;
+	:name "Pepe" ;
+	:date_of_birth "26/2/1983" ;
+	:nationality "Portuguese" ;
+	:position "Defender" .
+:Player_704 a :Player ;
+	:name "António Silva" ;
+	:date_of_birth "30/10/2003" ;
+	:nationality "Portuguese" ;
+	:position "Defender" .
+:Player_705 a :Player ;
+	:name "Rúben Dias" ;
+	:date_of_birth "14/5/1997" ;
+	:nationality "Portuguese" ;
+	:position "Defender" .
+:Player_706 a :Player ;
+	:name "Diogo Leite" ;
+	:date_of_birth "23/1/1999" ;
+	:nationality "Portuguese" ;
+	:position "Defender" .
+:Player_707 a :Player ;
+	:name "Raphaël Guerreiro" ;
+	:date_of_birth "22/12/1993" ;
+	:nationality "Portuguese" ;
+	:position "Defender" .
+:Player_708 a :Player ;
+	:name "Gonçalo Inácio" ;
+	:date_of_birth "25/8/2001" ;
+	:nationality "Portuguese" ;
+	:position "Defender" .
+:Player_709 a :Player ;
+	:name "Diogo Dalot" ;
+	:date_of_birth "18/3/1999" ;
+	:nationality "Portuguese" ;
+	:position "Defender" .
+:Player_710 a :Player ;
+	:name "Nuno Mendes" ;
+	:date_of_birth "19/6/2002" ;
+	:nationality "Portuguese" ;
+	:position "Defender" .
+:Player_711 a :Player ;
+	:name "João Cancelo" ;
+	:date_of_birth "27/5/1994" ;
+	:nationality "Portuguese" ;
+	:position "Defender" .
+:Player_712 a :Player ;
+	:name "João Palhinha" ;
+	:date_of_birth "09/7/1995" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_713 a :Player ;
+	:name "Bruno Fernandes" ;
+	:date_of_birth "08/9/1994" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_714 a :Player ;
+	:name "Bernardo Silva" ;
+	:date_of_birth "10/8/1994" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_715 a :Player ;
+	:name "Danilo" ;
+	:date_of_birth "09/9/1991" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_716 a :Player ;
+	:name "João Neves" ;
+	:date_of_birth "27/9/2004" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_717 a :Player ;
+	:name "Pedro Neto" ;
+	:date_of_birth "09/3/2000" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_718 a :Player ;
+	:name "Otávio" ;
+	:date_of_birth "09/2/1995" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_719 a :Player ;
+	:name "Renato Sanches" ;
+	:date_of_birth "18/8/1997" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_720 a :Player ;
+	:name "João Mário" ;
+	:date_of_birth "19/1/1993" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_721 a :Player ;
+	:name "Rúben Neves" ;
+	:date_of_birth "13/3/1997" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_722 a :Player ;
+	:name "Matheus Nunes" ;
+	:date_of_birth "27/8/1998" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_723 a :Player ;
+	:name "Vitinha" ;
+	:date_of_birth "13/2/2000" ;
+	:nationality "Portuguese" ;
+	:position "Midfielder" .
+:Player_724 a :Player ;
+	:name "Cristiano Ronaldo" ;
+	:date_of_birth "05/2/1985" ;
+	:nationality "Portuguese" ;
+	:position "Forward" .
+:Player_725 a :Player ;
+	:name "Gonçalo Ramos" ;
+	:date_of_birth "20/6/2001" ;
+	:nationality "Portuguese" ;
+	:position "Forward" .
+:Player_726 a :Player ;
+	:name "João Félix" ;
+	:date_of_birth "10/11/1999" ;
+	:nationality "Portuguese" ;
+	:position "Forward" .
+:Player_727 a :Player ;
+	:name "Ricardo Horta" ;
+	:date_of_birth "15/9/1994" ;
+	:nationality "Portuguese" ;
+	:position "Forward" .
+:Player_728 a :Player ;
+	:name "Bruma" ;
+	:date_of_birth "24/10/1994" ;
+	:nationality "Portuguese" ;
+	:position "Forward" .
+:Player_729 a :Player ;
+	:name "Rafael Leão" ;
+	:date_of_birth "10/6/1999" ;
+	:nationality "Portuguese" ;
+	:position "Forward" .
+:Player_730 a :Player ;
+	:name "João Mário" ;
+	:date_of_birth "03/1/2000" ;
+	:nationality "Portuguese" ;
+	:position "Forward" .
+:Player_731 a :Player ;
+	:name "Diogo Jota" ;
+	:date_of_birth "04/12/1996" ;
+	:nationality "Portuguese" ;
+	:position "Forward" .
+
+
+#Czechia
+
+
+:Player_732 a :Player ;
+	:name "Tomáš Vaclík" ;
+	:date_of_birth "29/3/1989" ;
+	:nationality "Czech" ;
+	:position "Goalkeeper" .
+:Player_733 a :Player ;
+	:name "Jiří Pavlenka" ;
+	:date_of_birth "14/4/1992" ;
+	:nationality "Czech" ;
+	:position "Goalkeeper" .
+:Player_734 a :Player ;
+	:name "Aleš Mandous" ;
+	:date_of_birth "21/4/1992" ;
+	:nationality "Czech" ;
+	:position "Goalkeeper" .
+:Player_735 a :Player ;
+	:name "Jindřich Staněk" ;
+	:date_of_birth "27/4/1996" ;
+	:nationality "Czech" ;
+	:position "Goalkeeper" .
+:Player_736 a :Player ;
+	:name "Tomáš Koubek" ;
+	:date_of_birth "26/8/1992" ;
+	:nationality "Czech" ;
+	:position "Goalkeeper" .
+:Player_737 a :Player ;
+	:name "Matěj Kovář" ;
+	:date_of_birth "17/5/2000" ;
+	:nationality "Czech" ;
+	:position "Goalkeeper" .
+:Player_738 a :Player ;
+	:name "Patrizio Stronati" ;
+	:date_of_birth "17/11/1994" ;
+	:nationality "Czech" ;
+	:position "Defender" .
+:Player_739 a :Player ;
+	:name "Václav Jemelka" ;
+	:date_of_birth "23/6/1995" ;
+	:nationality "Czech" ;
+	:position "Defender" .
+:Player_740 a :Player ;
+	:name "David Zima" ;
+	:date_of_birth "08/11/2000" ;
+	:nationality "Czech" ;
+	:position "Defender" .
+:Player_741 a :Player ;
+	:name "Jakub Brabec" ;
+	:date_of_birth "06/8/1992" ;
+	:nationality "Czech" ;
+	:position "Defender" .
+:Player_742 a :Player ;
+	:name "Vladimír Coufal" ;
+	:date_of_birth "22/8/1992" ;
+	:nationality "Czech" ;
+	:position "Defender" .
+:Player_743 a :Player ;
+	:name "Jaroslav Zelený" ;
+	:date_of_birth "20/8/1992" ;
+	:nationality "Czech" ;
+	:position "Defender" .
+:Player_744 a :Player ;
+	:name "Martin Vitík" ;
+	:date_of_birth "21/1/2003" ;
+	:nationality "Czech" ;
+	:position "Defender" .
+:Player_745 a :Player ;
+	:name "David Jurásek" ;
+	:date_of_birth "07/8/2000" ;
+	:nationality "Czech" ;
+	:position "Defender" .
+:Player_746 a :Player ;
+	:name "David Douděra" ;
+	:date_of_birth "31/5/1998" ;
+	:nationality "Czech" ;
+	:position "Defender" .
+:Player_747 a :Player ;
+	:name "Tomáš Holeš" ;
+	:date_of_birth "31/3/1993" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_748 a :Player ;
+	:name "Antonín Barák" ;
+	:date_of_birth "03/12/1994" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_749 a :Player ;
+	:name "Ladislav Krejčí" ;
+	:date_of_birth "20/4/1999" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_750 a :Player ;
+	:name "Michal Sadílek" ;
+	:date_of_birth "31/5/1999" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_751 a :Player ;
+	:name "Lukáš Masopust" ;
+	:date_of_birth "12/2/1993" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_752 a :Player ;
+	:name "Jaromír Zmrhal" ;
+	:date_of_birth "02/8/1993" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_753 a :Player ;
+	:name "Lukáš Sadílek" ;
+	:date_of_birth "23/5/1996" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_754 a :Player ;
+	:name "Lukáš Provod" ;
+	:date_of_birth "23/10/1996" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_755 a :Player ;
+	:name "Matěj Jurásek" ;
+	:date_of_birth "30/8/2003" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_756 a :Player ;
+	:name "Petr Ševčík" ;
+	:date_of_birth "04/5/1994" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_757 a :Player ;
+	:name "Ondřej Lingr" ;
+	:date_of_birth "07/10/1998" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_758 a :Player ;
+	:name "Alex Král" ;
+	:date_of_birth "19/5/1998" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_759 a :Player ;
+	:name "Tomáš Souček" ;
+	:date_of_birth "27/2/1995" ;
+	:nationality "Czech" ;
+	:position "Midfielder" .
+:Player_760 a :Player ;
+	:name "Vasil Kušej" ;
+	:date_of_birth "24/5/2000" ;
+	:nationality "Czech" ;
+	:position "Forward" .
+:Player_761 a :Player ;
+	:name "Adam Hložek" ;
+	:date_of_birth "25/7/2002" ;
+	:nationality "Czech" ;
+	:position "Forward" .
+:Player_762 a :Player ;
+	:name "Patrik Schick" ;
+	:date_of_birth "24/1/1996" ;
+	:nationality "Czech" ;
+	:position "Forward" .
+:Player_763 a :Player ;
+	:name "Mojmír Chytil" ;
+	:date_of_birth "29/4/1999" ;
+	:nationality "Czech" ;
+	:position "Forward" .
+:Player_764 a :Player ;
+	:name "Jan Kuchta" ;
+	:date_of_birth "08/1/1997" ;
+	:nationality "Czech" ;
+	:position "Forward" .
+:Player_765 a :Player ;
+	:name "Tomáš Čvančara" ;
+	:date_of_birth "13/8/2000" ;
+	:nationality "Czech" ;
+	:position "Forward" .
+:Player_766 a :Player ;
+	:name "Václav Černý" ;
+	:date_of_birth "17/10/1997" ;
+	:nationality "Czech" ;
+	:position "Forward" .
+:Player_767 a :Player ;
+	:name "Václav Jurečka" ;
+	:date_of_birth "26/6/1994" ;
+	:nationality "Czech" ;
+	:position "Forward" .
+:Player_768 a :Player ;
+	:name "Tomáš Chorý" ;
+	:date_of_birth "26/1/1995" ;
+	:nationality "Czech" ;
+	:position "Forward" .
+:Player_769 a :Player ;
+	:name "Jan Matoušek" ;
+	:date_of_birth "09/5/1998" ;
+	:nationality "Czech" ;
+	:position "Forward" .
+
+
+
+
+:Player_770 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_771 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_772 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_773 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_774 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_775 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_776 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_777 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_778 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_779 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_780 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_781 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_782 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_783 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_784 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_785 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_786 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_787 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_788 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_789 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_790 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_791 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_792 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_793 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_794 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_795 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_796 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_797 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_798 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_799 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+:Player_800 a :Player ;
+	:name "" ;
+	:date_of_birth "" ;
+	:nationality "" ;
+	:position "" .
+
+
+#Team:
+:Team_1 a :Team ;
+	:name "Scotland" ;
+	:description "The Scotland national football team, known as the Tartan Army, has a rich history in international football. While they have not qualified for major tournaments in recent years, Scotland is recognized for its passionate fan base and a commitment to showcasing a determined and resilient style of play, often relying on a mix of experienced players and emerging talent to compete on the global stage." ;
+	:coach :Coach_2 ;
+	:player :Player_1, :Player_2, :Player_3, :Player_4, :Player_5, :Player_6, :Player_7, :Player_8, :Player_9, :Player_10, :Player_11, :Player_12, :Player_13, :Player_14, :Player_15, :Player_16, :Player_17, :Player_18, :Player_19, :Player_20, :Player_21, :Player_22, :Player_23, :Player_24, :Player_25, :Player_26, :Player_27, :Player_28, :Player_29, :Player_30, :Player_31, :Player_32, :Player_33 . 
+:Team_2 a :Team ;
+	:name "Hungary" ;
+	:description "The Hungary national football team, often referred to as the Magyars, has a storied history in international football. Known for its contributions to the early years of the sport and notable successes, including winning three Olympic gold medals in the 1950s, Hungary continues to showcase a competitive spirit and a blend of experienced players and emerging talents on the contemporary football scene." ;
+	:coach :Coach_3 ;
+	:player :Player_34, :Player_35, :Player_36, :Player_37, :Player_38, :Player_39, :Player_40, :Player_41, :Player_42, :Player_43, :Player_44, :Player_45, :Player_46, :Player_47, :Player_48, :Player_49, :Player_50, :Player_51, :Player_52, :Player_53, :Player_54, :Player_55, :Player_56, :Player_57, :Player_58, :Player_59, :Player_60, :Player_61, :Player_62, :Player_63, :Player_64, :Player_65, :Player_66, :Player_67 . 
+:Team_3 a :Team ;
+	:name "Switzerland" ;
+	:description "The Switzerland national football team, known as the Nati, is a competitive force in European football. Characterized by a well-organized and disciplined playing style, Switzerland consistently features a mix of talented players and has enjoyed success in international competitions, contributing to its reputation as a respected team on the global stage." ;
+	:coach :Coach_4 ;
+	:player :Player_68, :Player_69, :Player_70, :Player_71, :Player_72, :Player_73, :Player_74, :Player_75, :Player_76, :Player_77, :Player_78, :Player_79, :Player_80, :Player_81, :Player_82, :Player_83, :Player_84, :Player_85, :Player_86, :Player_87, :Player_88, :Player_89, :Player_90, :Player_91, :Player_92, :Player_93, :Player_94, :Player_95, :Player_96, :Player_97, :Player_98, :Player_99, :Player_100, :Player_101, :Player_102, :Player_103, :Player_104, :Player_105, :Player_106, :Player_107 . 
+:Team_4 a :Team ;
+	:name "Spain" ;
+	:description "The Spain national football team, La Roja, is recognized for its dominance in world football over the past decade. Renowned for its possession-based playing style, technical proficiency, and triumphs in major tournaments, including winning the UEFA European Championship in 1964, 2008, and 2012, as well as the FIFA World Cup in 2010, Spain remains a powerhouse with a rich footballing heritage." ;
+	:coach :Coach_5 ;
+	:player :Player_108, :Player_109, :Player_110, :Player_111, :Player_112, :Player_113, :Player_114, :Player_115, :Player_116, :Player_117, :Player_118, :Player_119, :Player_120, :Player_121, :Player_122, :Player_123, :Player_124, :Player_125, :Player_126, :Player_127, :Player_128, :Player_129, :Player_130, :Player_131, :Player_132, :Player_133, :Player_134, :Player_135, :Player_136, :Player_137, :Player_138, :Player_139, :Player_140, :Player_141, :Player_142, :Player_143, :Player_144, :Player_145, :Player_146, :Player_147, :Player_148, :Player_149, :Player_150, :Player_151 . 
+:Team_5 a :Team ;
+	:name "Croatia" ;
+	:description "The Croatia national football team, known as Vatreni (The Blazers), has earned a strong reputation in international football. Renowned for their passionate style of play and notable achievements, including reaching the FIFA World Cup final in 2018, Croatia consistently showcases a mix of skillful players and tactical acumen, making them a formidable presence on the global stage." ;
+	:coach :Coach_6 ;
+	:player :Player_152, :Player_153, :Player_154, :Player_155, :Player_156, :Player_157, :Player_158, :Player_159, :Player_160, :Player_161, :Player_162, :Player_163, :Player_164, :Player_165, :Player_166, :Player_167, :Player_168, :Player_169, :Player_170, :Player_171, :Player_172, :Player_173, :Player_174, :Player_175, :Player_176, :Player_177, :Player_178, :Player_179, :Player_180, :Player_181, :Player_182, :Player_183, :Player_184, :Player_185, :Player_186 . 
+:Team_6 a :Team ;
+	:name "Italy" ;
+	:description "The Italy national football team, famously known as the Azzurri, is a footballing powerhouse with a rich history of success. Renowned for their tactical prowess, defensive solidity, and multiple international triumphs, including four FIFA World Cup victories, Italy consistently fields a formidable squad that combines experience and emerging talent, making them a perennial contender in major tournaments." ;
+	:coach :Coach_7 ;
+	:player :Player_187, :Player_188, :Player_189, :Player_190, :Player_191, :Player_192, :Player_193, :Player_194, :Player_195, :Player_196, :Player_197, :Player_198, :Player_199, :Player_200, :Player_201, :Player_202, :Player_203, :Player_204, :Player_205, :Player_206, :Player_207, :Player_208, :Player_209, :Player_210, :Player_211, :Player_212, :Player_213, :Player_214, :Player_215, :Player_216, :Player_217, :Player_218, :Player_219, :Player_220, :Player_221, :Player_222, :Player_223, :Player_224, :Player_225, :Player_226, :Player_227, :Player_228, :Player_229, :Player_230, :Player_231, :Player_232, :Player_233, :Player_234 . 
+:Team_7 a :Team ;
+	:name "Albania" ;
+	:description "The Albania national football team, known as Kuq e Zinjtë (The Red and Blacks), has demonstrated competitiveness in European football. Despite not having a long history of major tournament appearances, Albania showcases a determined and spirited style of play, often relying on the collective efforts of its players to make an impact on the international stage." ;
+	:coach :Coach_8 ;
+	:player :Player_235, :Player_236, :Player_237, :Player_238, :Player_239, :Player_240, :Player_241, :Player_242, :Player_243, :Player_244, :Player_245, :Player_246, :Player_247, :Player_248, :Player_249, :Player_250, :Player_251, :Player_252, :Player_253, :Player_254, :Player_255, :Player_256, :Player_257, :Player_258, :Player_259, :Player_260, :Player_261, :Player_262, :Player_263, :Player_264, :Player_265, :Player_266, :Player_267, :Player_268, :Player_269 . 
+:Team_8 a :Team ;
+	:name "Slovenia" ;
+	:description "The Slovenia national football team, known as the Zmajčki (The Dragons), competes with determination on the international stage. Although a relatively young team, Slovenia has shown resilience and skill, often employing a strategic and disciplined approach to their matches, contributing to their growing presence in European football." ;
+	:coach :Coach_9 ;
+	:player :Player_270, :Player_271, :Player_272, :Player_273, :Player_274, :Player_275, :Player_276, :Player_277, :Player_278, :Player_279, :Player_280, :Player_281, :Player_282, :Player_283, :Player_284, :Player_285, :Player_286, :Player_287, :Player_288, :Player_289, :Player_290, :Player_291, :Player_292, :Player_293, :Player_294, :Player_295, :Player_296, :Player_297, :Player_298, :Player_299, :Player_300, :Player_301, :Player_302 . 
+:Team_9 a :Team ;
+	:name "Denmark" ;
+	:description "The Denmark national football team, known as De Rød-Hvide (The Red and White), is a well-respected force in European football. With a history of solid performances in major tournaments, including winning the UEFA European Championship in 1992, Denmark is characterized by its disciplined and team-oriented playing style, often featuring a mix of experienced players and emerging talents." ;
+	:coach :Coach_10 ;
+	:player :Player_303, :Player_304, :Player_305, :Player_306, :Player_307, :Player_308, :Player_309, :Player_310, :Player_311, :Player_312, :Player_313, :Player_314, :Player_315, :Player_316, :Player_317, :Player_318, :Player_319, :Player_320, :Player_321, :Player_322, :Player_323, :Player_324, :Player_325, :Player_326, :Player_327, :Player_328, :Player_329, :Player_330, :Player_331, :Player_332, :Player_333, :Player_334, :Player_335, :Player_336, :Player_337, :Player_338, :Player_339 . 
+:Team_10 a :Team ;
+	:name "Serbia" ;
+	:description "The Serbia national football team, known as the Orlovi (The Eagles), is a competitive presence in European football. With a history deeply rooted in the success of former Yugoslavia, the team showcases a blend of skillful players and a resilient style, aiming to make a mark in international competitions." ;
+	:coach :Coach_11 ;
+	:player :Player_340, :Player_341, :Player_342, :Player_343, :Player_344, :Player_345, :Player_346, :Player_347, :Player_348, :Player_349, :Player_350, :Player_351, :Player_352, :Player_353, :Player_354, :Player_355, :Player_356, :Player_357, :Player_358, :Player_359, :Player_360, :Player_361, :Player_362, :Player_363, :Player_364, :Player_365, :Player_366, :Player_367, :Player_368, :Player_369, :Player_370, :Player_371, :Player_372, :Player_373, :Player_374, :Player_375, :Player_376, :Player_377 . 
+:Team_11 a :Team ;
+	:name "England" ;
+	:description "The England national football team, often referred to as the Three Lions, is a prominent force in international football. Known for its passionate fan base and a history that includes winning the FIFA World Cup in 1966, the team combines a mix of talented young stars and experienced players, showcasing a determined and resilient style of play on the global stage." ;
+	:coach :Coach_12 ;
+	:player :Player_378, :Player_379, :Player_380, :Player_381, :Player_382, :Player_383, :Player_384, :Player_385, :Player_386, :Player_387, :Player_388, :Player_389, :Player_390, :Player_391, :Player_392, :Player_393, :Player_394, :Player_395, :Player_396, :Player_397, :Player_398, :Player_399, :Player_400, :Player_401, :Player_402, :Player_403, :Player_404, :Player_405, :Player_406, :Player_407, :Player_408, :Player_409, :Player_410, :Player_411, :Player_412, :Player_413, :Player_414, :Player_415 . 
+:Team_12 a :Team ;
+	:name "Netherland" ;
+	:description "The Netherlands national football team, known as Oranje, is renowned for its attacking style of play and a rich footballing history. With iconic players such as Johan Cruyff and a legacy of success, including winning the UEFA European Championship in 1988, the Dutch team consistently showcases a blend of skill, flair, and tactical innovation on the international stage." ;
+	:coach :Coach_13 ;
+	:player :Player_416, :Player_417, :Player_418, :Player_419, :Player_420, :Player_421, :Player_422, :Player_423, :Player_424, :Player_425, :Player_426, :Player_427, :Player_428, :Player_429, :Player_430, :Player_431, :Player_432, :Player_433, :Player_434, :Player_435, :Player_436, :Player_437, :Player_438, :Player_439, :Player_440, :Player_441, :Player_442, :Player_443, :Player_444, :Player_445, :Player_446, :Player_447, :Player_448, :Player_449, :Player_450, :Player_451, :Player_452, :Player_453, :Player_454, :Player_455, :Player_456, :Player_457, :Player_478, :Player_459, :Player_460 . 
+:Team_13 a :Team ;
+	:name "Austria" ;
+	:description "The Austria national football team, nicknamed Das Team, is a competitive force in European football. With a history that includes successful campaigns in international competitions, Austria is recognized for its organized and disciplined playing style, often fielding a mix of talented domestic and international players." ;
+	:coach :Coach_14 ;
+	:player :Player_461, :Player_462, :Player_463, :Player_464, :Player_465, :Player_466, :Player_467, :Player_468, :Player_469, :Player_470, :Player_471, :Player_472, :Player_473, :Player_474, :Player_475, :Player_476, :Player_477, :Player_478, :Player_479, :Player_480, :Player_481, :Player_482, :Player_483, :Player_484, :Player_485, :Player_486, :Player_487, :Player_488, :Player_489, :Player_490, :Player_491, :Player_492, :Player_493, :Player_494, :Player_495, :Player_496, :Player_497, :Player_498, :Player_499, :Player_500, :Player_501, :Player_502, :Player_503 .
+:Team_14 a :Team ;
+	:name "France" ;
+	:description "The France national football team, known as Les Bleus, is a football powerhouse with a rich history of success. Renowned for their flair, skill, and tactical prowess, France has won multiple major international trophies, including two FIFA World Cups and two UEFA European Championships, showcasing a blend of experienced stars and emerging talents on the global stage." ;
+	:coach :Coach_15 ;
+	:player :Player_504, :Player_505, :Player_506, :Player_507, :Player_508, :Player_509, :Player_510, :Player_511, :Player_512, :Player_513, :Player_514, :Player_515, :Player_516, :Player_517, :Player_518, :Player_519, :Player_520, :Player_521, :Player_522, :Player_523, :Player_524, :Player_525, :Player_526, :Player_527, :Player_528, :Player_529, :Player_530, :Player_531, :Player_532, :Player_533, :Player_534, :Player_535, :Player_536, :Player_537, :Player_538 . 
+:Team_15 a :Team ;
+	:name "Belgium" ;
+	:description "The Belgium national football team, known as the Red Devils, is widely regarded as one of the top teams in international football. With a golden generation of players including Eden Hazard, Kevin De Bruyne, and Romelu Lukaku, Belgium has consistently demonstrated a dynamic and attacking style of play, achieving success in major tournaments and earning a reputation as a formidable contender on the global stage." ;
+	:coach :Coach_16 ;
+	:player :Player_539, :Player_540, :Player_541, :Player_542, :Player_543, :Player_544, :Player_545, :Player_546, :Player_547, :Player_548, :Player_549, :Player_550, :Player_551, :Player_552, :Player_553, :Player_554, :Player_555, :Player_556, :Player_557, :Player_558, :Player_559, :Player_560, :Player_561, :Player_562, :Player_563, :Player_564, :Player_565, :Player_566, :Player_567, :Player_568, :Player_569, :Player_570, :Player_571, :Player_572, :Player_573, :Player_574, :Player_575, :Player_576 . 
+:Team_16 a :Team ;
+	:name "Slovakia" ;
+	:description "The Slovakia national football team, known as Repre (The Repre), has established itself as a competitive force in European football. With notable appearances in major tournaments, including the UEFA European Championship and the FIFA World Cup, Slovakia showcases a blend of skilled players and tactical discipline, contributing to their reputation as a respected team on the international stage." ;
+	:coach :Coach_17 ;
+	:player :Player_577, :Player_578, :Player_579, :Player_580, :Player_581, :Player_582, :Player_583, :Player_584, :Player_585, :Player_586, :Player_587, :Player_588, :Player_589, :Player_590, :Player_591, :Player_592, :Player_593, :Player_594, :Player_595, :Player_596, :Player_597, :Player_598, :Player_599, :Player_600, :Player_601, :Player_602, :Player_603, :Player_604, :Player_605, :Player_606, :Player_607, :Player_608, :Player_609, :Player_610 . 
+:Team_17 a :Team ;
+	:name "Romania" ;
+	:description "The Romania national football team, often referred to as Tricolorii, has a storied history in international football. Recognized for their resilience and tactical prowess, Romania achieved notable success, including reaching the quarterfinals of the 1994 FIFA World Cup and consistently being a competitive presence in European competitions." ;
+	:coach :Coach_18 ;
+	:player :Player_611, :Player_612, :Player_613, :Player_614, :Player_615, :Player_616, :Player_617, :Player_618, :Player_619, :Player_620, :Player_621, :Player_622, :Player_623, :Player_624, :Player_625, :Player_626, :Player_627, :Player_628, :Player_629, :Player_630, :Player_631, :Player_632, :Player_633, :Player_634, :Player_635, :Player_636, :Player_637, :Player_638, :Player_639, :Player_640, :Player_641, :Player_642, :Player_643, :Player_644, :Player_645, :Player_646, :Player_647, :Player_648, :Player_649, :Player_650, :Player_651, :Player_652 . 
+:Team_18 a :Team ;
+	:name "Turkey" ;
+	:description "The Turkey national football team, known as Ay-Yıldızlılar (The Crescent-Stars), is a competitive force in European football. With a history that includes a memorable third-place finish in the 2008 UEFA European Championship, the team is characterized by its passionate and determined style of play, often showcasing a mix of talented domestic and international players." ;
+	:coach :Coach_19 ;
+	:player :Player_653, :Player_654, :Player_655, :Player_656, :Player_657, :Player_658, :Player_659, :Player_660, :Player_661, :Player_662, :Player_663, :Player_664, :Player_665, :Player_666, :Player_667, :Player_668, :Player_669, :Player_670, :Player_671, :Player_672, :Player_673, :Player_674, :Player_675, :Player_676, :Player_677, :Player_678, :Player_679, :Player_680, :Player_681, :Player_682, :Player_683, :Player_684, :Player_685, :Player_686, :Player_687, :Player_688, :Player_689, :Player_690, :Player_691, :Player_692, :Player_693, :Player_694, :Player_695 . 
+:Team_19 a :Team ;
+	:name "Portugal" ;
+	:description "The Portugal national football team, often referred to as A Seleção, is a powerhouse in international football led by iconic players like Cristiano Ronaldo. Renowned for their skillful and attacking style of play, Portugal has achieved significant success, including winning the UEFA European Championship in 2016, showcasing a blend of experienced veterans and emerging talents." ;
+	:coach :Coach_20 ;
+	:player :Player_696, :Player_697, :Player_698, :Player_699, :Player_700, :Player_701, :Player_702, :Player_703, :Player_704, :Player_705, :Player_706, :Player_707, :Player_708, :Player_709, :Player_710, :Player_711, :Player_712, :Player_713, :Player_714, :Player_715, :Player_716, :Player_717, :Player_718, :Player_719, :Player_720, :Player_721, :Player_722, :Player_723, :Player_724, :Player_725, :Player_726, :Player_727, :Player_728, :Player_729, :Player_730, :Player_731 . 
+:Team_20 a :Team ;
+	:name "Czechia" ;
+	:description "The Czechia national football team, representing the Czech Republic, is recognized for its competitive presence in European football. With notable achievements, including reaching the final of Euro 1996, the team exhibits a skilled and resilient playing style, contributing to its reputation as a formidable force in international football competitions." ;
+	:coach :Coach_21 ;
+	:player :Player_732, :Player_733, :Player_734, :Player_735, :Player_736, :Player_737, :Player_738, :Player_739, :Player_740, :Player_741, :Player_742, :Player_743, :Player_744, :Player_745, :Player_746, :Player_747, :Player_748, :Player_749, :Player_750, :Player_751, :Player_752, :Player_753, :Player_754, :Player_755, :Player_756, :Player_757, :Player_758, :Player_759, :Player_760, :Player_761, :Player_762, :Player_763, :Player_764, :Player_765, :Player_766, :Player_767, :Player_768, :Player_769 . 
+:Team_21 a :Team ;
+	:name "Germany" ;
+	:description "The Germany national football team, known as Die Mannschaft, is one of the most successful and renowned football teams globally. With a rich history, including four FIFA World Cup victories, the team is known for its disciplined and dynamic style of play, consistently showcasing top-tier talent and competitiveness on the international stage." ;
+	:coach :Coach_1 ;
+	:player :Player_770 .
+
+#Match
+	
+:Match_1 a :Match ;
+	:schedule "21:00" ;
+	:date "14/06/2024" ;
+	:venue :Venue_9  ;
+	:participant :Team_21, :Team_1 .
+:Match_2 a :Match ;
+	:schedule "15:00" ;
+	:date "15/06/2024" ;
+	:venue :Venue_2  ;
+	:participant :Team_2, :Team_3 .
+:Match_3 a :Match ;
+	:schedule "18:00" ;
+	:date "15/06/2024" ;
+	:venue :Venue_1  ;
+	:participant :Team_4, :Team_5 .
+:Match_4 a :Match ;
+	:schedule "21:00" ;
+	:date "15/06/2024" ;
+	:venue :Venue_3  ;
+	:participant :Team_6, :Team_7 .
+:Match_5 a :Match ;
+	:schedule "18:00" ;
+	:date "16/06/2024" ;
+	:venue :Venue_10  ;
+	:participant :Team_8, :Team_9 .
+:Match_6 a :Match ;
+	:schedule "21:00" ;
+	:date "16/06/2024" ;
+	:venue :Venue_6  ;
+	:participant :Team_10, :Team_11 .
+:Match_7 a :Match ;
+	:schedule "18:00" ;
+	:date "17/06/2024" ;
+	:venue :Venue_5  ;
+	:participant :Team_15, :Team_16 .
+:Match_9 a :Match ;
+	:schedule "21:00" ;
+	:date "17/06/2024" ;
+	:venue :Venue_4  ;
+	:participant :Team_13, :Team_14 .
+:Match_10 a :Match ;
+	:schedule "21:00" ;
+	:date "18/06/2024" ;
+	:venue :Venue_8  ;
+	:participant :Team_19, :Team_20 .
+:Match_11 a :Match ;
+	:schedule "15:00" ;
+	:date "19/06/2024" ;
+	:venue :Venue_7  ;
+	:participant :Team_5, :Team_7 .
+:Match_12 a :Match ;
+	:schedule "18:00" ;
+	:date "19/06/2024" ;
+	:venue :Venue_10  ;
+	:participant :Team_21, :Team_2 .
+:Match_13 a :Match ;
+	:schedule "21:00" ;
+	:date "19/06/2024" ;
+	:venue :Venue_2  ;
+	:participant :Team_1, :Team_3 .
+:Match_14 a :Match ;
+	:schedule "15:00" ;
+	:date "20/06/2024" ;
+	:venue :Venue_9  ;
+	:participant :Team_8, :Team_10 .
+:Match_15 a :Match ;
+	:schedule "18:00" ;
+	:date "20/06/2024" ;
+	:venue :Venue_5  ;
+	:participant :Team_9, :Team_11 .
+:Match_16 a :Match ;
+	:schedule "21:00" ;
+	:date "20/06/2024" ;
+	:venue :Venue_6  ;
+	:participant :Team_4, :Team_6 .
+:Match_17 a :Match ;
+	:schedule "21:00" ;
+	:date "21/06/2024" ;
+	:venue :Venue_8  ;
+	:participant :Team_12, :Team_14 .
+:Match_18 a :Match ;
+	:schedule "18:00" ;
+	:date "22/06/2024" ;
+	:venue :Venue_3  ;
+	:participant :Team_18, :Team_19 .
+:Match_19 a :Match ;
+	:schedule "21:00" ;
+	:date "22/06/2024" ;
+	:venue :Venue_2  ;
+	:participant :Team_15, :Team_17 .
+:Match_20 a :Match ;
+	:schedule "21:00" ;
+	:date "23/06/2024" ;
+	:venue :Venue_5  ;
+	:participant :Team_3, :Team_21 .
+:Match_21 a :Match ;
+	:schedule "21:00" ;
+	:date "23/06/2024" ;
+	:venue :Venue_10  ;
+	:participant :Team_1, :Team_2 .
+:Match_22 a :Match ;
+	:schedule "21:00" ;
+	:date "24/06/2024" ;
+	:venue :Venue_4  ;
+	:participant :Team_4, :Team_7 .
+:Match_23 a :Match ;
+	:schedule "21:00" ;
+	:date "24/06/2024" ;
+	:venue :Venue_8  ;
+	:participant :Team_5, :Team_6 .
+:Match_24 a :Match ;
+	:schedule "18:00" ;
+	:date "25/06/2024" ;
+	:venue :Venue_1  ;
+	:participant :Team_12, :Team_13 .
+:Match_25 a :Match ;
+	:schedule "21:00" ;
+	:date "25/06/2024" ;
+	:venue :Venue_2  ;
+	:participant :Team_8, :Team_11 .
+:Match_26 a :Match ;
+	:schedule "21:00" ;
+	:date "25/06/2024" ;
+	:venue :Venue_9  ;
+	:participant :Team_9, :Team_10 .
+:Match_27 a :Match ;
+	:schedule "18:00" ;
+	:date "26/06/2024" ;
+	:venue :Venue_5  ;
+	:participant :Team_16, :Team_17 .
+:Match_28 a :Match ;
+	:schedule "21:00" ;
+	:date "26/06/2024" ;
+	:venue :Venue_7  ;
+	:participant :Team_20, :Team_18 .

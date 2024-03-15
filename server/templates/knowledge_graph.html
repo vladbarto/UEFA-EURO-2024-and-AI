@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}UEFA EURO 2024 FAQ | IAI Hochschule Darmstadt{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/knowledge_representation.css') }}">
+<div class="body-wrap-kg">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="false">
+                    <span class="accordion-title">
+                        I want to know more about my team from UEFA EURO 2024
+                    </span><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p> {{content[0]|safe}}</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false">
+                    <span class="accordion-title">
+                        Which are the stadiums of the tournament?
+                    </span><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p> {{content[1]|safe}} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    const items = document.querySelectorAll(".accordion button");
+    function toggleAccordion() {
+        const itemToggle = this.getAttribute('aria-expanded');
+        for (i = 0; i < items.length; i++) {
+            items[i].setAttribute('aria-expanded', 'false');
+        }
+        if (itemToggle == 'false') {
+            this.setAttribute('aria-expanded', 'true');
+        }
+    }
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
+</script>
+{% endblock %}

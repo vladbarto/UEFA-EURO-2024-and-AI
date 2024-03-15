@@ -1,0 +1,132 @@
+:root {
+    --bg: #fff;
+    --text: #607387;
+    --gray: #2d3342;
+    --lightgray: #e5e5e5;
+    --blue: #02a8ef;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body-wrap-kg {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+    background: var(--bg);
+    color: var(--gray);
+    display: flex;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 4rem;
+    width: 48rem;
+}
+
+.accordion-item {
+    border-bottom: 1px solid var(--lightgray);
+}
+
+.accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid var(--blue);
+}
+
+button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: var(--text);
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;
+    color: var(--blue);
+}
+
+button:hover::after,
+button:focus::after {
+    cursor: pointer;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.accordion-title {
+    padding: 1em 1.5em 1em 0;
+}
+
+.icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+}
+
+.icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+}
+
+.icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+}
+
+button[aria-expanded='true'] {
+    color: var(--blue);
+}
+
+button[aria-expanded='true'] .icon::after {
+    width: 0;
+}
+
+.accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+
+
+button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 350em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.redirect-country {
+    background: #f9bf4b;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}UEFA EURO 2024 | {{content[5]|safe}} | IAI Hochschule Darmstadt{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/country.css') }}">
+<div class="head-wrap-co">
+    <div class="title-wrap-co">
+        <div class="flag-co">
+            <img src={{content[6]|safe}} alt="" id="circle">
+        </div>
+       <p>{{content[5]|safe}}</p>
+    </div>
+    <div class="matches-co">
+        <p>{{content[0]|safe}}</p>
+    </div>
+</div>
+
+<div class="body-wrap-co">
+    <div class="overview-co">
+        <h1>Overview</h1>
+        <h4>{{content[1]|safe}}</h4>
+        <br><h4>Trainer: {{content[3]|safe}}</h4>
+        <h5>{{content[4]|safe}}</h5>
+    </div>
+
+    <div class="squad-co">
+        <h1>National Squad</h1>
+        <div>{{content[2]|safe}}</div>
+    </div>
+</div>
+{% endblock %}

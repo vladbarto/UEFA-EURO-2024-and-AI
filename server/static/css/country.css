@@ -1,0 +1,75 @@
+p { margin: 0; }
+
+.head-wrap-co {
+    width: 100%;
+    align-items: center;
+}
+
+.flag-co {
+    margin-right: 2%;
+}
+#circle
+{
+   border-radius:50% 50% 50% 50%;
+   border-width: thick;
+   border-style: solid;
+   border-color: #bac4c8;
+   object-fit: cover;
+   width:170px;
+   height:170px;
+}
+
+.title-wrap-co {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10%;
+    background: #ffde00;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #28383e;
+    font-size: 70px;
+}
+
+.matches-co {
+    background: #000d40;
+    color: white;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+}
+
+.match-card-co {
+    border-radius: 10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #263572;
+    background: #0d1e62;
+    padding: 1%;
+    width: 14em;
+    margin-right: 1%;
+}
+
+.time-and-venue-co {
+    color: #7d86ab;
+    margin-bottom: 5px;
+}
+
+.match-teams {
+    color: #f4f4f8;
+}
+/*----------------------------------------------*/
+.body-wrap-co {
+    display: flex;
+    padding-top: 3%;
+    background: #f2f3f4;
+    padding-left: 10%;
+}
+
+.overview-co {
+    width: 30%;
+    color: #28383e;
+    margin-right: 10%;
+}

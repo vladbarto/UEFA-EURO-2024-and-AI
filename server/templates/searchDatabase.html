@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+    <form action = "#"
+    method = "post" >
+  <div class="form-group">
+    <label for="name">Email address</label>
+    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="some search param" name="param1">
+  </div>
+  <div class="form-group">
+    <label for="category">Password</label>
+    <input type="text" class="form-control" id="category" placeholder="some other search param" name="param2">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="checkbx">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+</form>
+{% endblock %}

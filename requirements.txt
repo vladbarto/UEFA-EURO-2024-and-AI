@@ -1,0 +1,9 @@
+matplotlib==3.7.4
+numpy==1.24.3
+tensorflow==2.13.1
+tensorflow_datasets
+pathlib
+opencv-python==4.9.0.80
+flask==3.0.1
+werkzeug==3.0.1
+SPARQLWrapper

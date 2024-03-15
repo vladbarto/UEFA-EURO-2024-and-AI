@@ -1,0 +1,37 @@
+11:26:39 INFO  Server          :: Apache Jena Fuseki 4.10.0
+11:26:39 INFO  Config          :: FUSEKI_HOME=/home/vlad/Documents/FACULTA/AN3/SEM1/IAI/apache-jena-fuseki-4.10.0
+11:26:39 INFO  Config          :: FUSEKI_BASE=/home/vlad/Documents/FACULTA/AN3/SEM1/IAI/apache-jena-fuseki-4.10.0/run
+11:26:39 INFO  Config          :: Shiro file: file:///home/vlad/Documents/FACULTA/AN3/SEM1/IAI/apache-jena-fuseki-4.10.0/run/shiro.ini
+11:26:40 INFO  Config          :: Load configuration: file:///home/vlad/Documents/FACULTA/AN3/SEM1/IAI/apache-jena-fuseki-4.10.0/run/configuration/TMDB.ttl
+11:26:40 INFO  Server          :: Configuration file: /home/vlad/Documents/FACULTA/AN3/SEM1/IAI/apache-jena-fuseki-4.10.0/run/config.ttl
+11:26:40 INFO  Server          :: Path = /TMDB
+11:26:40 INFO  Server          ::   Memory: 1.5 GiB
+11:26:40 INFO  Server          ::   Java:   21.0.1
+11:26:40 INFO  Server          ::   OS:     Linux 5.15.0-89-generic amd64
+11:26:40 INFO  Server          ::   PID:    12659
+11:26:40 INFO  Server          :: Started 2023/11/28 11:26:40 CET on port 3030
+11:27:10 INFO  Fuseki          :: [4] POST http://localhost:3030/TMDB/sparql
+11:27:10 INFO  Fuseki          :: [4] Query = PREFIX : <https://www.themoviedb.org/kaggle-export/> SELECT Distinct ?name WHERE { 	?cast a :Cast;   		:credit_id ?id;     	:name ?name.   	?crew a :Crew;      	:credit_id ?id;      	:job "Director". }
+11:27:10 INFO  Fuseki          :: [4] 200 OK (358 ms)
+11:27:25 INFO  Fuseki          :: [7] POST http://localhost:3030/TMDB/data
+11:27:33 WARN  Fuseki          :: [line: 1132188, col: 14] Lexical form 'nan' not valid for datatype XSD float
+11:27:33 WARN  Fuseki          :: [line: 1153595, col: 14] Lexical form 'nan' not valid for datatype XSD float
+11:27:34 INFO  Fuseki          :: [7] Filename: TMDB.ttl, Content-Type=text/turtle, Charset=null => Turtle : Count=1329040 Triples=1329040 Quads=0
+11:27:34 INFO  Fuseki          :: [7] 200 OK (8.700 s)
+11:27:38 INFO  Fuseki          :: [10] POST http://localhost:3030/TMDB/sparql
+11:27:38 INFO  Fuseki          :: [10] Query = PREFIX : <https://www.themoviedb.org/kaggle-export/> SELECT Distinct ?name WHERE { 	?cast a :Cast;   		:credit_id ?id;     	:name ?name.   	?crew a :Crew;      	:credit_id ?id;      	:job "Director". }
+11:27:38 INFO  Fuseki          :: [10] 200 OK (148 ms)
+11:28:26 INFO  Fuseki          :: [30] POST http://localhost:3030/TMDB/data
+11:28:33 WARN  Fuseki          :: [line: 1132188, col: 14] Lexical form 'nan' not valid for datatype XSD float
+11:28:33 WARN  Fuseki          :: [line: 1153595, col: 14] Lexical form 'nan' not valid for datatype XSD float
+11:28:34 INFO  Fuseki          :: [30] Filename: TMDB.ttl, Content-Type=text/turtle, Charset=null => Turtle : Count=1329040 Triples=1329040 Quads=0
+11:28:34 INFO  Fuseki          :: [30] 200 OK (7.455 s)
+11:28:50 INFO  Fuseki          :: [33] POST http://localhost:3030/TMDB/sparql
+11:28:50 INFO  Fuseki          :: [33] Query = PREFIX : <https://www.themoviedb.org/kaggle-export/> SELECT Distinct ?name WHERE { 	?cast a :Cast;   		:credit_id ?id;     	:name ?name. #  	?crew a :Crew; #     	:credit_id ?id; #     	:job "Director". }
+11:28:51 INFO  Fuseki          :: [33] 200 OK (1.312 s)
+11:28:57 INFO  Fuseki          :: [34] POST http://localhost:3030/TMDB/sparql
+11:28:57 INFO  Fuseki          :: [34] Query = PREFIX : <https://www.themoviedb.org/kaggle-export/> SELECT Distinct ?name WHERE { 	?cast a :Cast;   		:credit_id ?id;     	:name ?name.   	?crew a :Crew;      	:credit_id ?id;      	:job "Director". }
+11:28:57 INFO  Fuseki          :: [34] 200 OK (25 ms)
+11:31:13 INFO  Fuseki          :: [35] POST http://localhost:3030/TMDB/sparql
+11:31:13 INFO  Fuseki          :: [35] Query = PREFIX : <https://www.themoviedb.org/kaggle-export/> SELECT Distinct ?name WHERE { 	?cast a :Cast;   		:credit_id ?id;     	:name ?name. #  	?crew a :Crew; #     	:credit_id ?id; #     	:job "Director". }
+11:31:13 INFO  Fuseki          :: [35] 200 OK (545 ms)

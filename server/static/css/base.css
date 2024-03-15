@@ -1,0 +1,45 @@
+.head-of-page {
+  background: #080c44;
+  color: #fff;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+ }
+
+.navbar {
+    background: #183cdc;
+    color: #fff;
+    padding-left: 10%;
+}
+
+.index-container {
+    background: #183cdc;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-wrap {
+    padding-top: 1%;
+    padding-left: 10%;
+    color: #fff;
+    background: #183cdc;
+    height: 27rem;
+}
+
+.about-us-body {
+    display: flex;
+}
+.authors {
+    padding-left: 1%;
+    line-height: 10pt;
+    width: 40%;
+}
+
+.about-us-end-logo {
+    display: flex;
+    justify-content: left;
+    margin-left: -5%;
+}

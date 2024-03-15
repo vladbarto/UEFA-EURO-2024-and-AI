@@ -1,0 +1,137 @@
+1. Which teams are participating in Euro 2024?
+2. Who is the coach of the ... national football team?
+3. Who are in the squad of ...?
+4. Give me the list of matches involving the ... with schedule and opponent?
+5.1. Provide information about ...(any coach)?
+5.2. Provide information about ...(any player)?
+6. How many players are in the squad of ...?
+7. Who play as a ... in the squad of ... ?
+8. Where is the ...(stadium) located ?
+9. Tell me a little bit about ...(team)? - description
+10. List the venues for the group stage matches of Euro 2024 and their 
+respective capacities?
+___________________________________
+prefix : <https://www.h-da.de/> 
+1. Which teams are participating in Euro 2024?
+
+SELECT ?teamName
+WHERE {
+   ?team a :Team .
+   ?team :name ?teamName .
+}
+
+2. Who is the coach of the ... national football team?
+
+SELECT ?coachName
+WHERE {
+   ?team a :Team ;
+	 :name "Spain" ; #change name of the team here
+         :coach ?coach .
+   ?coach :name ?coachName .
+}
+
+3. Who are in the squad of ...?
+
+SELECT ?playerName
+WHERE {
+   ?team a :Team ;	
+	 :name "Spain" ; #change name of the team here
+         :player ?player .
+   ?player :name ?playerName .
+}
+
+4. Give me the list of matches involving the ... with schedule and opponent? 
+
+SELECT ?matchSchedule ?matchDate ?matchVenue (MIN(?opponentName) as ?opponent)
+WHERE {
+   ?match a :Match ;
+          :schedule ?matchSchedule ;
+          :date ?matchDate ;
+          :venue ?venue ;
+          :participant ?team1, ?team2 .
+   ?venue :name ?matchVenue
+   {
+      ?team1 :name "Germany" . #change team name here
+      ?team2 :name ?opponentName .
+   }
+   UNION
+   {
+      ?team2 :name "Germany" . #change team name here
+      ?team1 :name ?opponentName .
+   }
+   FILTER(?opponentName != "Germany") #change team name here
+}
+GROUP BY ?match ?matchSchedule ?matchDate ?matchVenue
+
+5. Provide information about ...(any coach or player)?
+
+SELECT ?coachName ?dob ?nationality
+WHERE {
+   ?coach a :Coach ;
+          :name "Julian Nagelsmann" ; #change name here
+          :date_of_birth ?dob ;
+          :nationality ?nationality .
+}
+
+SELECT ?playerName ?dob ?nationality ?position
+WHERE {
+   ?player a :Player ;
+           :name "..." ; #insert name here
+           :date_of_birth ?dob ;
+           :nationality ?nationality ;
+           :position ?position .
+}
+
+6. How many players are in the squad of ...? 
+
+SELECT (COUNT(?player) as ?playerCount)
+WHERE {
+   ?team a :Team ;
+  	 :name "Spain" ; #change team name here
+         :player ?player .
+}
+
+7. Who play as a ... in the squad of ... ?
+
+SELECT ?playerName
+WHERE {
+   ?team a :Team ;
+	 :name "Spain" ; #change team name here
+         :player ?player .
+   ?player :position "Goalkeeper" ; #change position here
+           :name ?playerName .
+}
+
+8. Where is the ...(stadium) located ?
+
+SELECT ?stadiumName ?location
+WHERE {
+   ?stadium a :Venue ;
+            :name "Arena AufSchalke" ; #change stadium name here
+            :ort ?location .
+}
+
+
+9. Tell me a little bit about ...? 
+
+SELECT ?description
+WHERE {
+   ?subject a :Team ; 
+            :name "Spain" ; #change team name here
+            :description ?description .
+}
+
+10. List the venues for the group stage matches of Euro 2024 and their 
+respective capacities?
+
+SELECT ?venueName ?capacity
+WHERE {
+   ?match a :Match ;
+          :venue ?venue .
+   ?venue :name ?venueName ;
+          :capacity ?capacity .
+}
+
+
+
+
